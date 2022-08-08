@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Nombre de la APP
+     <!-- Default Searchbar -->
+<ion-searchbar></ion-searchbar>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+<swiper #swiper [config]="config">
+  <ng-template swiperSlide>Slide 1</ng-template>
+
+  <ng-template swiperSlide>Slide 2</ng-template>
+
+  <ng-template swiperSlide>Slide 3</ng-template>
+</swiper>
+  </div>
+</ion-content>
