@@ -11,29 +11,12 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large"><div class="titulo">Blank</div></ion-title> 
+      <ion-title size="large">Blank</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <div id="container">
-    <div class="contiene-titulos"><div class="subtitulo">MAPIS</div><div class="link">Ver todos</div></div>
 <swiper #swiper [config]="config">
-<<<<<<< HEAD
-  <ng-template swiperSlide><div class="slider1">
-    <div class="cuadro1">
-    MAPIS
-    </div>
-    <div class="contiene-texto">
-      <div class="contendor">
-         <div class="circulo1"></div>
-         <div class="texto">Contenidos Conseptuales</div>
-      </div>
-         <div class="Texto-pequeño">
-             3 Archivo (s) para Descargar
-         </div>
-    </div>
-</div></ng-template>
-=======
   <ng-template swiperSlide>
     <ion-card href="/enfoques">
       <ion-card-header>
@@ -47,38 +30,10 @@
       </ion-card-content>
     </ion-card>
   </ng-template>
->>>>>>> 6be8b3288655f87691d9d9440029a6eeb4f99e87
 
-<ng-template swiperSlide><div class="slider1">
-  <div class="cuadro2">
-    Rol y Competencias
-  </div>
-  <div class="contiene-texto">
-    <div class="contendor">
-       <div class="circulo2"></div>
-       <div class="texto">Rol y Funciones<br><br></div>
-    </div>
-       <div class="Texto-pequeño">
-           1 Archivo (s) para Descargar
-       </div>
-  </div>
-</div></ng-template>
+  <ng-template swiperSlide>Slide 2</ng-template>
 
-<ng-template swiperSlide><div class="slider1">
-  <div class="cuadro3">
-  Enfoques
-  </div>
-  <div class="contiene-texto">
-    <div class="contendor">
-       <div class="circulo3"></div>
-       <div class="texto">Lineamientos de Actuación</div>
-    </div>
-       <div class="Texto-pequeño">
-           3 Archivo (s) para Descargar
-       </div>
-  </div>
-</div></ng-template>
-
+  <ng-template swiperSlide>Slide 3</ng-template>
 </swiper>
 
   <ion-modal
