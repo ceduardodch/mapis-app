@@ -7,18 +7,18 @@
     </ion-title>
   </ion-toolbar>
 </ion-header>
-
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
+    <div id="bg-header"> 
     <ion-toolbar>
       <ion-title size="large"><div class="titulo">Blank</div></ion-title> 
     </ion-toolbar>
+  </div>
   </ion-header>
-
+    
   <div id="container">
     <div class="contiene-titulos"><div class="subtitulo">MAPIS</div><div class="link">Ver todos</div></div>
 <swiper #swiper [config]="config">
-<<<<<<< HEAD
   <ng-template swiperSlide><div class="slider1">
     <div class="cuadro1">
     MAPIS
@@ -33,7 +33,6 @@
          </div>
     </div>
 </div></ng-template>
-=======
   <ng-template swiperSlide>
     <ion-card href="/enfoques">
       <ion-card-header>
@@ -47,7 +46,6 @@
       </ion-card-content>
     </ion-card>
   </ng-template>
->>>>>>> 6be8b3288655f87691d9d9440029a6eeb4f99e87
 
 <ng-template swiperSlide><div class="slider1">
   <div class="cuadro2">
@@ -80,7 +78,16 @@
 </div></ng-template>
 
 </swiper>
-
+<div class="preguntas-contendor">
+  <div class="espacio-blanco">
+    <div class="boton-rojo">
+          Preguntas Frecuentes
+    </div>
+  </div>
+  <div class="texto-preguntas">
+    Bienvenido a la Aplicación para Otorgamiento de Mapis. <a href="#">Haz click acá</a> para entender cómo funciona la Aplicación y sus objetivos.
+    </div>
+</div>
   <ion-modal
       #modal
       trigger="open-modal"

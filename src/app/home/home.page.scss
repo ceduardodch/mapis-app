@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-=======
+
 #container {
   text-align: center;
-
   position: absolute;
   left: 0;
   right: 0;
@@ -10,7 +8,6 @@
   transform: translateY(-20%);
 }
 
->>>>>>> 6be8b3288655f87691d9d9440029a6eeb4f99e87
 #container strong {
   font-size: 20px;
   line-height: 26px;
@@ -37,11 +34,7 @@ ion-slides {
 }
 
 .swiper-slide h2 {
-<<<<<<< HEAD
   margin-top: 3rem;
-=======
-  margin-top: 0.8rem;
->>>>>>> 6be8b3288655f87691d9d9440029a6eeb4f99e87
 }
 
 .swiper-slide img {
@@ -66,9 +59,6 @@ p b {
   color: var(--ion-text-color, #000000);
 }
 .hydrated {
-  visibility: inherit;
-  background-color: #2b2e33;
-  color: white;
   font-family: Montserrat, serif;
 }
 ion-title {
@@ -191,4 +181,54 @@ padding-left: 5px;;
   background-color: #4c8dbc;
   border-radius: 20px;
   max-width: 10%;
+}
+#background-content {
+  left: 0px;
+  right: 0px;
+  top: calc(var(--offset-top) * -1);
+  bottom: calc(var(--offset-bottom) * -1);
+  position: absolute;
+  background: #2b2e33;
+}
+.content-ok {
+  background-color: #000;
+}
+.header-ios ion-toolbar:last-of-type {
+  --border-width: 0 0 0.55px;
+  background-color: #2b2e33;
+}
+ion-title.md.title-default.hydrated {
+  background-color: #2b2e33;
+  color: #ffffff;
+}
+ion-title {
+  padding: 10px;
+  padding-bottom: 10px;
+  padding-top: 40px;
+}
+.preguntas-contendor {
+  background-color: #f6f6f6;
+  margin: 16px;
+  padding: 4%;
+  border-radius: 30px;
+}
+.espacio-blanco {
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 20px;
+}
+.boton-rojo {
+  background-color: #e86768;
+  padding: 7px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  max-width: 250px;
+}
+.texto-preguntas {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 16px;
+  color: #727272;
+  font-size: 12px;
+  line-height: 17px;
 }
