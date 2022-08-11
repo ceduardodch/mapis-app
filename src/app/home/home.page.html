@@ -1,7 +1,8 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
+    <div id="arriba"><ion-icon name="grid-outline"></ion-icon></div>
     <ion-title>
-      Nombre de la APP
+      <div class="nombre">Nombre de la APP </div> 
      <!-- Default Searchbar -->
 <ion-searchbar></ion-searchbar>
     </ion-title>
@@ -15,8 +16,15 @@
     </ion-toolbar>
   </div>
   </ion-header>
-    
   <div id="container">
+    <div class="subtitulos"> 
+      <div class="sub">
+        Mapis
+      </div> 
+      <div class="link">
+        Ver todos
+    </div> 
+    </div>
 <swiper #swiper [config]="config">
   <ng-template swiperSlide><div class="slider1">
     <div class="cuadro1">
@@ -28,27 +36,41 @@
          <div class="texto">Contenidos Conseptuales</div>
       </div>
          <div class="Texto-pequeño">
-             3 Archivo (s) para Descargar
+          <ion-icon name="document-outline"></ion-icon> 3 Archivo (s) para Descargar
          </div>
     </div>
 </div></ng-template>
-  <ng-template swiperSlide>
-    <ion-card href="/enfoques">
-      <ion-card-header>
-        <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-        <ion-card-title>Enfoques</ion-card-title>
-      </ion-card-header>
-    
-      <ion-card-content>
-        Keep close to Nature's heart... and break clear away, once in awhile,
-        and climb a mountain or spend a week in the woods. Wash your spirit clean.
-      </ion-card-content>
-    </ion-card>
-  </ng-template>
 
-  <ng-template swiperSlide>Slide 2</ng-template>
+<ng-template swiperSlide><div class="slider1">
+  <div class="cuadro2">
+    Rol y Competencias
+  </div>
+  <div class="contiene-texto">
+    <div class="contendor">
+       <div class="circulo2"></div>
+       <div class="texto">Rol y Funciones<br><br></div>
+    </div>
+       <div class="Texto-pequeño">
+        <ion-icon name="document-outline"></ion-icon> 1 Archivo (s) para Descargar
+       </div>
+  </div>
+</div></ng-template>
 
-  <ng-template swiperSlide>Slide 3</ng-template>
+<ng-template swiperSlide><div class="slider1">
+  <div class="cuadro3">
+  Enfoques
+  </div>
+  <div class="contiene-texto">
+    <div class="contendor">
+       <div class="circulo3"></div>
+       <div class="texto">Lineamientos de Actuación</div>
+    </div>
+       <div class="Texto-pequeño">
+        <ion-icon name="document-outline"></ion-icon> 3 Archivo (s) para Descargar
+       </div>
+  </div>
+</div></ng-template>
+
 </swiper>
 <div class="preguntas-contendor">
   <div class="espacio-blanco">
