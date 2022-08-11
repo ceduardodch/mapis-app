@@ -62,3 +62,25 @@ ion-label.sc-ion-label-md-h.sc-ion-label-md-s.md.hydrated {
 input.searchbar-input.sc-ion-searchbar-ios {
     background-color: #FFFFFF;
 }
+ion-item.item.ios.item-fill-none.ion-activatable.ion-focusable.hydrated.item-label {
+    font-family: Montserrat, sans-serif;
+}
+.boton {
+    width: 100%;
+    display: inline-flex;
+}
+.boton-texto1 {
+    font-family: Montserrat, sans-serif;
+    width: 90%;
+    color: #595959;
+    font-size: 14px;
+}
+.boton-icono {
+    color: #558db8;
+    font-size: 19px;
+    width: 10%;
+}
+.boton {
+    padding-top: 9px;
+    padding-bottom: 1px;
+}
