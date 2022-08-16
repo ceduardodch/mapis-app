@@ -26,7 +26,9 @@
     </div> 
     </div>
 <swiper #swiper [config]="config">
-  <ng-template swiperSlide><div class="slider1">
+  <ng-template swiperSlide><div class="slider1" >
+    <a routerLinkActive="active" 
+    routerLink="/menu">
     <div class="cuadro1">
     MAPIS
     </div>
@@ -38,10 +40,12 @@
          <div class="Texto-pequeño">
           <ion-icon name="document-outline"></ion-icon> 3 Archivo (s) para Descargar
          </div>
-    </div>
+    </div></a>
 </div></ng-template>
 
-<ng-template swiperSlide><div class="slider1">
+<ng-template swiperSlide ><div class="slider1">
+  <a routerLinkActive="active" 
+  routerLink="/menu">
   <div class="cuadro2">
     Rol y Competencias
   </div>
@@ -53,10 +57,12 @@
        <div class="Texto-pequeño">
         <ion-icon name="document-outline"></ion-icon> 1 Archivo (s) para Descargar
        </div>
-  </div>
+  </div></a>
 </div></ng-template>
 
 <ng-template swiperSlide><div class="slider1">
+  <a routerLinkActive="active" 
+  routerLink="/enfoques">
   <div class="cuadro3">
   Enfoques
   </div>
@@ -68,7 +74,7 @@
        <div class="Texto-pequeño">
         <ion-icon name="document-outline"></ion-icon> 3 Archivo (s) para Descargar
        </div>
-  </div>
+  </div></a>
 </div></ng-template>
 
 </swiper>

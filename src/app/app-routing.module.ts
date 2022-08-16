@@ -131,6 +131,42 @@ const routes: Routes = [
     path: 'emergencia',
     loadChildren: () => import('./mapis/emergencia/emergencia.module').then( m => m.EmergenciaPageModule)
   },
+  {
+    path: 'menu1',
+    loadChildren: () => import('./mapis/menu1/menu1.module').then( m => m.Menu1PageModule)
+  },
+  {
+    path: 'menu2',
+    loadChildren: () => import('./mapis/menu2/menu2.module').then( m => m.Menu2PageModule)
+  },
+  {
+    path: 'menu3',
+    loadChildren: () => import('./mapis/menu3/menu3.module').then( m => m.Menu3PageModule)
+  },
+  {
+    path: 'menu4',
+    loadChildren: () => import('./mapis/menu4/menu4.module').then( m => m.Menu4PageModule)
+  },
+  {
+    path: 'menu5',
+    loadChildren: () => import('./mapis/menu5/menu5.module').then( m => m.Menu5PageModule)
+  },
+  {
+    path: 'violenciagenero',
+    loadChildren: () => import('./mapis/violenciagenero/violenciagenero.module').then( m => m.ViolenciageneroPageModule)
+  },
+  {
+    path: 'menu6',
+    loadChildren: () => import('./mapis/menu6/menu6.module').then( m => m.Menu6PageModule)
+  },
+  {
+    path: 'menu7',
+    loadChildren: () => import('./mapis/menu7/menu7.module').then( m => m.Menu7PageModule)
+  },
+  {
+    path: 'menu8',
+    loadChildren: () => import('./mapis/menu8/menu8.module').then( m => m.Menu8PageModule)
+  },
 ];
 
 @NgModule({
