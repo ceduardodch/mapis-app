@@ -160,10 +160,7 @@ const routes: Routes = [
     path: 'menu7',
     loadChildren: () => import('./mapis/menu7/menu7.module').then( m => m.Menu7PageModule)
   },
-  {
-    path: 'menu8',
-    loadChildren: () => import('./mapis/accionesu/accionesu.module').then( m => m.Menu8PageModule)
-  },
+
 ];
 
 @NgModule({
