@@ -162,7 +162,7 @@ const routes: Routes = [
   },
   {
     path: 'menu8',
-    loadChildren: () => import('./mapis/menu8/menu8.module').then( m => m.Menu8PageModule)
+    loadChildren: () => import('./mapis/accionesu/accionesu.module').then( m => m.Menu8PageModule)
   },
 ];
 
