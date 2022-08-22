@@ -51,10 +51,7 @@ const routes: Routes = [
     path: 'lineamientos',
     loadChildren: () => import('./rolycompetencias/lineamientos/lineamientos.module').then( m => m.LineamientosPageModule)
   },
-  {
-    path: 'menu',
-    loadChildren: () => import('./mapis/menu/menu.module').then( m => m.MenuPageModule)
-  },
+
   {
     path: 'violencia',
     loadChildren: () => import('./mapis/violencia/violencia.module').then( m => m.ViolenciaPageModule)
