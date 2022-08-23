@@ -323,6 +323,30 @@ const routes: Routes = [
     path: 'lineamientosespec',
     loadChildren: () => import('./rolycompetencias/lineamientosespec/lineamientosespec.module').then( m => m.LineamientosespecPageModule)
   },
+  {
+    path: 'acciones',
+    loadChildren: () => import('./mapis/acciones/acciones.module').then( m => m.AccionesPageModule)
+  },
+  {
+    path: 'descripcion',
+    loadChildren: () => import('./mapis/descripcion/descripcion.module').then( m => m.DescripcionPageModule)
+  },
+  {
+    path: 'procedimineto',
+    loadChildren: () => import('./mapis/procedimineto/procedimineto.module').then( m => m.ProcediminetoPageModule)
+  },
+  {
+    path: 'acciones2',
+    loadChildren: () => import('./mapis2/acciones2/acciones2.module').then( m => m.Acciones2PageModule)
+  },
+  {
+    path: 'descripcion2',
+    loadChildren: () => import('./mapis2/descripcion2/descripcion2.module').then( m => m.Descripcion2PageModule)
+  },
+  {
+    path: 'procedimineto2',
+    loadChildren: () => import('./mapis2/procedimineto2/procedimineto2.module').then( m => m.Procedimineto2PageModule)
+  },
 
 ];
 
