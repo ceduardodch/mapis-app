@@ -1,11 +1,11 @@
 .header-enfoques {
     min-height: 250px;
-    background-color: #1e1102;
+    background-color: #35bba9;
     padding: 0px;
     color: #FFFFFF;
 }
 .toolbar-background {
-    background: #1e1102;
+    background: #35bba9;
 }
 .toolbar-container {
     padding-top: 0px;
@@ -50,7 +50,7 @@ input.searchbar-input.sc-ion-searchbar-ios {
 .boton-azul {
     margin: 25px 0px 0px 0px;
     padding: 14px;
-    background-color: #f18e31;
+    background-color: #35bba9;
     border-radius: 30px;
     color: #ffffff;
     text-align: center;
@@ -76,7 +76,7 @@ ion-item.item.ios.item-fill-none.ion-activatable.ion-focusable.hydrated.item-lab
     font-size: 14px;
 }
 .boton-icono {
-    color: #f18e31;
+    color: #35bba9;
     font-size: 19px;
     width: 10%;
 }
@@ -86,4 +86,9 @@ ion-item.item.ios.item-fill-none.ion-activatable.ion-focusable.hydrated.item-lab
 }
 .titulo {
     font-family: Montserrat, sans-serif;
+}
+.boton-icono {
+    color: #55b8a9;
+    font-size: 19px;
+    width: 10%;
 }
