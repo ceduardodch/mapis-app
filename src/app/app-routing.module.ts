@@ -303,6 +303,26 @@ const routes: Routes = [
     path: 'pregunta5',
     loadChildren: () => import('./pregunta/pregunta5/pregunta5.module').then( m => m.Pregunta5PageModule)
   },
+  {
+    path: 'descripciones',
+    loadChildren: () => import('./acciones/descripciones/descripciones.module').then( m => m.DescripcionesPageModule)
+  },
+  {
+    path: 'procedimientos',
+    loadChildren: () => import('./acciones/procedimientos/procedimientos.module').then( m => m.ProcedimientosPageModule)
+  },
+  {
+    path: 'casos',
+    loadChildren: () => import('./mapis/casos/casos.module').then( m => m.CasosPageModule)
+  },
+  {
+    path: 'casos2',
+    loadChildren: () => import('./mapis2/casos2/casos2.module').then( m => m.Casos2PageModule)
+  },
+  {
+    path: 'lineamientosespec',
+    loadChildren: () => import('./rolycompetencias/lineamientosespec/lineamientosespec.module').then( m => m.LineamientosespecPageModule)
+  },
 
 ];
 
