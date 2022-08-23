@@ -303,14 +303,7 @@ const routes: Routes = [
     path: 'pregunta5',
     loadChildren: () => import('./pregunta/pregunta5/pregunta5.module').then( m => m.Pregunta5PageModule)
   },
-  {
-    path: 'descripciones',
-    loadChildren: () => import('./acciones/descripciones/descripciones.module').then( m => m.DescripcionesPageModule)
-  },
-  {
-    path: 'procedimientos',
-    loadChildren: () => import('./acciones/procedimientos/procedimientos.module').then( m => m.ProcedimientosPageModule)
-  },
+
   {
     path: 'casos',
     loadChildren: () => import('./mapis/casos/casos.module').then( m => m.CasosPageModule)
