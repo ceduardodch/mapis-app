@@ -143,3 +143,34 @@ a {
     color: #35bba9;
     text-decoration: none;
 }
+.contendor-ojo {
+    width: 100%;
+    display: inline-flex;
+}
+.contiene-ojo {
+    color: #55b8a9;
+    max-width: 20%;
+    font-size: 35px;
+    margin-right: 5px;
+}
+.contiene-texto-ojo {
+    max-width: 80%;
+    margin-top: 5px;
+}
+li {
+    FONT-FAMILY: Montserrat, sans-serif;
+    line-height: 21px;
+    font-size: 14px;
+    color: #595959;
+    line-height: 21px;
+}
+.contiene-texto-ojo {
+    FONT-FAMILY: Montserrat, sans-serif;
+    line-height: 21px;
+    font-size: 14px;
+    color: #595959;
+    line-height: 21px;
+}
+.contendor-ojo {
+    margin-top: 10px;
+}
