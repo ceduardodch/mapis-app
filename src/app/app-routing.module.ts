@@ -303,14 +303,7 @@ const routes: Routes = [
     path: 'pregunta5',
     loadChildren: () => import('./pregunta/pregunta5/pregunta5.module').then( m => m.Pregunta5PageModule)
   },
-  {
-    path: 'descripciones',
-    loadChildren: () => import('./acciones/descripciones/descripciones.module').then( m => m.DescripcionesPageModule)
-  },
-  {
-    path: 'procedimientos',
-    loadChildren: () => import('./acciones/procedimientos/procedimientos.module').then( m => m.ProcedimientosPageModule)
-  },
+
   {
     path: 'casos',
     loadChildren: () => import('./mapis/casos/casos.module').then( m => m.CasosPageModule)
@@ -322,6 +315,30 @@ const routes: Routes = [
   {
     path: 'lineamientosespec',
     loadChildren: () => import('./rolycompetencias/lineamientosespec/lineamientosespec.module').then( m => m.LineamientosespecPageModule)
+  },
+  {
+    path: 'acciones',
+    loadChildren: () => import('./mapis/acciones/acciones.module').then( m => m.AccionesPageModule)
+  },
+  {
+    path: 'descripcion',
+    loadChildren: () => import('./mapis/descripcion/descripcion.module').then( m => m.DescripcionPageModule)
+  },
+  {
+    path: 'procedimineto',
+    loadChildren: () => import('./mapis/procedimineto/procedimineto.module').then( m => m.ProcediminetoPageModule)
+  },
+  {
+    path: 'acciones2',
+    loadChildren: () => import('./mapis2/acciones2/acciones2.module').then( m => m.Acciones2PageModule)
+  },
+  {
+    path: 'descripcion2',
+    loadChildren: () => import('./mapis2/descripcion2/descripcion2.module').then( m => m.Descripcion2PageModule)
+  },
+  {
+    path: 'procedimineto2',
+    loadChildren: () => import('./mapis2/procedimineto2/procedimineto2.module').then( m => m.Procedimineto2PageModule)
   },
 
 ];
