@@ -343,6 +343,22 @@ const routes: Routes = [
     path: 'procedimientopol',
     loadChildren: () => import('./mapis2/procedimientopol/procedimientopol.module').then( m => m.ProcedimientopolPageModule)
   },
+  {
+    path: 'edidasadministrativas',
+    loadChildren: () => import('./mapis/edidasadministrativas/edidasadministrativas.module').then( m => m.EdidasadministrativasPageModule)
+  },
+  {
+    path: 'otorgamientomap',
+    loadChildren: () => import('./mapis/otorgamientomap/otorgamientomap.module').then( m => m.OtorgamientomapPageModule)
+  },
+  {
+    path: 'parametrosyval',
+    loadChildren: () => import('./mapis/parametrosyval/parametrosyval.module').then( m => m.ParametrosyvalPageModule)
+  },
+  {
+    path: 'caracteristicasmap',
+    loadChildren: () => import('./mapis/caracteristicasmap/caracteristicasmap.module').then( m => m.CaracteristicasmapPageModule)
+  },
 
 
 ];
