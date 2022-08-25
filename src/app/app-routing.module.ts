@@ -339,7 +339,11 @@ const routes: Routes = [
   {
     path: 'procedimineto2',
     loadChildren: () => import('./mapis2/procedimineto2/procedimineto2.module').then( m => m.Procedimineto2PageModule)
+  },  {
+    path: 'procedimientopol',
+    loadChildren: () => import('./mapis2/procedimientopol/procedimientopol.module').then( m => m.ProcedimientopolPageModule)
   },
+
 
 ];
 
