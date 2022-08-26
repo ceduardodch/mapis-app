@@ -339,7 +339,203 @@ const routes: Routes = [
   {
     path: 'procedimineto2',
     loadChildren: () => import('./mapis2/procedimineto2/procedimineto2.module').then( m => m.Procedimineto2PageModule)
+  },  {
+    path: 'procedimientopol',
+    loadChildren: () => import('./mapis2/procedimientopol/procedimientopol.module').then( m => m.ProcedimientopolPageModule)
   },
+  {
+    path: 'edidasadministrativas',
+    loadChildren: () => import('./mapis/edidasadministrativas/edidasadministrativas.module').then( m => m.EdidasadministrativasPageModule)
+  },
+  {
+    path: 'otorgamientomap',
+    loadChildren: () => import('./mapis/otorgamientomap/otorgamientomap.module').then( m => m.OtorgamientomapPageModule)
+  },
+  {
+    path: 'parametrosyval',
+    loadChildren: () => import('./mapis/parametrosyval/parametrosyval.module').then( m => m.ParametrosyvalPageModule)
+  },
+  {
+    path: 'caracteristicasmap',
+    loadChildren: () => import('./mapis/caracteristicasmap/caracteristicasmap.module').then( m => m.CaracteristicasmapPageModule)
+  },
+  {
+    path: 'casossex',
+    loadChildren: () => import('./mapis/casossex/casossex.module').then( m => m.CasossexPageModule)
+  },
+  {
+    path: 'pautas1',
+    loadChildren: () => import('./mapis/pautas1/pautas1.module').then( m => m.Pautas1PageModule)
+  },
+  {
+    path: 'normativaap1',
+    loadChildren: () => import('./mapis/normativaap1/normativaap1.module').then( m => m.Normativaap1PageModule)
+  },
+  {
+    path: 'casospsi',
+    loadChildren: () => import('./mapis/casospsi/casospsi.module').then( m => m.CasospsiPageModule)
+  },
+  {
+    path: 'pautas2',
+    loadChildren: () => import('./mapis/pautas2/pautas2.module').then( m => m.Pautas2PageModule)
+  },
+  {
+    path: 'normativaap2',
+    loadChildren: () => import('./mapis/normativaap2/normativaap2.module').then( m => m.Normativaap2PageModule)
+  },
+  {
+    path: 'casoseco',
+    loadChildren: () => import('./mapis/casoseco/casoseco.module').then( m => m.CasosecoPageModule)
+  },
+  {
+    path: 'normativaap3',
+    loadChildren: () => import('./mapis/normativaap3/normativaap3.module').then( m => m.Normativaap3PageModule)
+  },
+  {
+    path: 'pautas3',
+    loadChildren: () => import('./mapis/pautas3/pautas3.module').then( m => m.Pautas3PageModule)
+  },
+  {
+    path: 'casospoli',
+    loadChildren: () => import('./mapis/casospoli/casospoli.module').then( m => m.CasospoliPageModule)
+  },
+  {
+    path: 'normativaap4',
+    loadChildren: () => import('./mapis/normativaap4/normativaap4.module').then( m => m.Normativaap4PageModule)
+  },
+  {
+    path: 'pautas4',
+    loadChildren: () => import('./mapis/pautas4/pautas4.module').then( m => m.Pautas4PageModule)
+  },
+  {
+    path: 'casosgineco',
+    loadChildren: () => import('./mapis/casosgineco/casosgineco.module').then( m => m.CasosginecoPageModule)
+  },
+  {
+    path: 'pautas5',
+    loadChildren: () => import('./mapis/pautas5/pautas5.module').then( m => m.Pautas5PageModule)
+  },
+  {
+    path: 'normativaap5',
+    loadChildren: () => import('./mapis/normativaap5/normativaap5.module').then( m => m.Normativaap5PageModule)
+  },
+  {
+    path: 'pautas6',
+    loadChildren: () => import('./mapis/pautas6/pautas6.module').then( m => m.Pautas6PageModule)
+  },
+  {
+    path: 'normativaap6',
+    loadChildren: () => import('./mapis/normativaap6/normativaap6.module').then( m => m.Normativaap6PageModule)
+  },
+  {
+    path: 'casossim',
+    loadChildren: () => import('./mapis/casossim/casossim.module').then( m => m.CasossimPageModule)
+  },
+  {
+    path: 'pautas7',
+    loadChildren: () => import('./mapis/pautas7/pautas7.module').then( m => m.Pautas7PageModule)
+  },
+  {
+    path: 'normativaap7',
+    loadChildren: () => import('./mapis/normativaap7/normativaap7.module').then( m => m.Normativaap7PageModule)
+  },
+  {
+    path: 'casossexdig',
+    loadChildren: () => import('./mapis/casossexdig/casossexdig.module').then( m => m.CasossexdigPageModule)
+  },
+  {
+    path: 'pautas8',
+    loadChildren: () => import('./mapis/pautas8/pautas8.module').then( m => m.Pautas8PageModule)
+  },
+  {
+    path: 'normativaap8',
+    loadChildren: () => import('./mapis/normativaap8/normativaap8.module').then( m => m.Normativaap8PageModule)
+  },
+  {
+    path: 'casossex2',
+    loadChildren: () => import('./mapis/casossex2/casossex2.module').then( m => m.Casossex2PageModule)
+  },
+  {
+    path: 'pautas9',
+    loadChildren: () => import('./mapis/pautas9/pautas9.module').then( m => m.Pautas9PageModule)
+  },
+  {
+    path: 'normativaap9',
+    loadChildren: () => import('./mapis/normativaap9/normativaap9.module').then( m => m.Normativaap9PageModule)
+  },
+  {
+    path: 'casospsi2',
+    loadChildren: () => import('./mapis/casospsi2/casospsi2.module').then( m => m.Casospsi2PageModule)
+  },
+  {
+    path: 'pautas10',
+    loadChildren: () => import('./mapis/pautas10/pautas10.module').then( m => m.Pautas10PageModule)
+  },
+  {
+    path: 'normativaap10',
+    loadChildren: () => import('./mapis/normativaap10/normativaap10.module').then( m => m.Normativaap10PageModule)
+  },
+  {
+    path: 'preg1',
+    loadChildren: () => import('./pregunta2/preg1/preg1.module').then( m => m.Preg1PageModule)
+  },
+  {
+    path: 'preg2',
+    loadChildren: () => import('./pregunta2/preg2/preg2.module').then( m => m.Preg2PageModule)
+  },
+  {
+    path: 'preg3',
+    loadChildren: () => import('./pregunta2/preg3/preg3.module').then( m => m.Preg3PageModule)
+  },
+  {
+    path: 'preg4',
+    loadChildren: () => import('./pregunta2/preg4/preg4.module').then( m => m.Preg4PageModule)
+  },
+  {
+    path: 'preg5',
+    loadChildren: () => import('./pregunta2/preg5/preg5.module').then( m => m.Preg5PageModule)
+  },
+  {
+    path: 'pregmenu2',
+    loadChildren: () => import('./pregunta2/pregmenu2/pregmenu2.module').then( m => m.Pregmenu2PageModule)
+  },
+  {
+    path: 'pregmenu222',
+    loadChildren: () => import('./pregunta2/pregmenu222/pregmenu222.module').then( m => m.Pregmenu222PageModule)
+  },
+  {
+    path: 'pregunta6',
+    loadChildren: () => import('./pregunta/pregunta6/pregunta6.module').then( m => m.Pregunta6PageModule)
+  },
+  {
+    path: 'pregunta7',
+    loadChildren: () => import('./pregunta/pregunta7/pregunta7.module').then( m => m.Pregunta7PageModule)
+  },
+  {
+    path: 'pregunta8',
+    loadChildren: () => import('./pregunta/pregunta8/pregunta8.module').then( m => m.Pregunta8PageModule)
+  },
+  {
+    path: 'pregunta9',
+    loadChildren: () => import('./pregunta/pregunta9/pregunta9.module').then( m => m.Pregunta9PageModule)
+  },
+  {
+    path: 'pregunta10',
+    loadChildren: () => import('./pregunta/pregunta10/pregunta10.module').then( m => m.Pregunta10PageModule)
+  },
+  {
+    path: 'pregunta11',
+    loadChildren: () => import('./pregunta/pregunta11/pregunta11.module').then( m => m.Pregunta11PageModule)
+  },
+  {
+    path: 'pregunta12',
+    loadChildren: () => import('./pregunta/pregunta12/pregunta12.module').then( m => m.Pregunta12PageModule)
+  },
+  {
+    path: 'submenu1',
+    loadChildren: () => import('./pregunta/submenu1/submenu1.module').then( m => m.Submenu1PageModule)
+  },
+
 
 ];
 

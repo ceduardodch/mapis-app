@@ -48,7 +48,7 @@
   <div id="container">
     <div class="subtitulos"> 
       <div class="sub">
-        Mapis
+        Acciones Urgentes
       </div> 
       <div class="link">
         Ver todos
@@ -57,14 +57,15 @@
 <swiper #swiper [config]="config">
   <ng-template swiperSlide><div class="slider1" >
     <a routerLinkActive="active" 
-    routerLink="/menu1">
+    routerLink="/menu12">
     <div class="cuadro1">
-    MAPIS
+      Acciones Urgentes
     </div>
     <div class="contiene-texto">
       <div class="contendor">
          <div class="circulo1"></div>
-         <div class="texto">Contenidos Conseptuales</div>
+         <div class="texto">Contenidos
+          Conceptuales</div>
       </div>
          <div class="Texto-pequeño">
           <ion-icon name="document-outline"></ion-icon> 3 Archivo (s) para Descargar
@@ -109,12 +110,15 @@
 </swiper>
 <div class="preguntas-contendor">
   <div class="espacio-blanco">
+    <a routerLinkActive="active" 
+    routerLink="/pregmenu222">
     <div class="boton-rojo">
           Preguntas Frecuentes
     </div>
+  </a>
   </div>
   <div class="texto-preguntas">
-    Bienvenido a la Aplicación para Otorgamiento de Mapis. <a href="#">Haz click acá</a> para entender cómo funciona la Aplicación y sus objetivos.
+    Bienvenido a la Aplicación para Otorgamiento de Mapis. <a href="/menu12">Haz click acá</a> para entender cómo funciona la Aplicación y sus objetivos.
     </div>
 </div>
   </div>
