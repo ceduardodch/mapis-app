@@ -1,6 +1,38 @@
+
+<ion-app>
+  <ion-menu side="end" content-id="main-content">
+  <ion-header>
+    <ion-toolbar translucent>
+      <ion-title>Roles</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+      <ion-item href="/home">
+        <ion-icon name="people-outline" slot="start"></ion-icon>
+        <ion-label>Autoridad de territorio</ion-label>
+      </ion-item>
+      <ion-item href="/home2">
+        <ion-icon name="accessibility-outline" slot="start"></ion-icon>
+        <ion-label>Policias</ion-label>
+      </ion-item>
+
+    </ion-list></ion-content>
+</ion-menu>
+
+<ion-router-outlet main></ion-router-outlet>
+
+<div class="ion-page" id="main-content">
+
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <div id="arriba"><ion-icon name="grid-outline"></ion-icon></div>
+    <div id="arriba">  
+      <ion-buttons slot="end">
+        <ion-menu-button>
+          <ion-icon name="grid-outline"></ion-icon>
+        </ion-menu-button>
+     </ion-buttons>
+    </div>    
     <ion-title>
       <div class="nombre">Nombre de la APP </div> 
      <!-- Default Searchbar -->
@@ -12,7 +44,6 @@
   <ion-header collapse="condense">
     <div id="bg-header"> 
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
     </ion-toolbar>
   </div>
   </ion-header>
@@ -90,3 +121,4 @@
 </div>
   </div>
 </ion-content>
+</div></ion-app>

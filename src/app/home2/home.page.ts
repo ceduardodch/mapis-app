@@ -1,6 +1,8 @@
 import { AfterContentChecked, Component, ViewChild } from '@angular/core';
 import { SwiperOptions } from 'swiper';
 import { SwiperComponent } from 'swiper/angular';
+import { MenuController } from '@ionic/angular';
+
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
@@ -13,7 +15,15 @@ export class HomePage{
   config: SwiperOptions={
     slidesPerView: 2,
   };
-  constructor() {}
+  constructor(private menu: MenuController) {}
+  openFirst() {
+    this.menu.enable(true, 'first');
+    this.menu.open('first');
+  }
+
+  openEnd() {
+    this.menu.open('end');
+  }
 
 
 }
