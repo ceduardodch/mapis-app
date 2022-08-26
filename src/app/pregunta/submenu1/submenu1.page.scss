@@ -1,5 +1,5 @@
 .header-enfoques {
-    in-height: 100px;
+    max-height: 170px;
     background-color: #f35c65;
     padding: 0px;
     color: #FFFFFF;
@@ -34,12 +34,12 @@ input.searchbar-input.sc-ion-searchbar-ios {
 }
 .titulo {
     font-weight: 400;
-    padding-top: 85px;
-    padding-bottom: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .fondo-gris {
     background: #f7f7f7;
-    padding: 20px 16px 50px 16px;
+    padding: 50px 16px 50px 16px;
     border-radius: 0px 0px 30px 30px;
 }
 .fondo-blanco {
@@ -62,85 +62,45 @@ ion-label.sc-ion-label-md-h.sc-ion-label-md-s.md.hydrated {
 input.searchbar-input.sc-ion-searchbar-ios {
     background-color: #FFFFFF;
 }
-.buscar {
-    padding-bottom: 10px;
-}
-.titulo-interno {
-    font-size: 18px;
+ion-item.item.ios.item-fill-none.ion-activatable.ion-focusable.hydrated.item-label {
     font-family: Montserrat, sans-serif;
-    line-height: 23px;
 }
-p.texto.interno {
-    FONT-FAMILY: Montserrat, sans-serif;
-    font-size: 20px;
-    font-family: Montserrat, sans-serif;
-    line-height: 25px;
-    color: #404040;
-}
-.boton-blanco {
-    background-color: #ffffff;
-    border-radius: 30px;
-    padding: 16px;
-    display: inline-flex;
+.boton {
     width: 100%;
-    margin-bottom: 50px;
+    display: inline-flex;
 }
-.div-a {
-    width: 80%;
-}
-.div-b {
-    width: 20%;
-    text-align: right;
-}
-.icono2 {
-    width: 10%;
-    font-size: 19px;
-    color: #f35c65;
-}
-.letra-boton-interna {
+.boton-texto1 {
+    font-family: Montserrat, sans-serif;
     width: 90%;
+    color: #595959;
+    font-size: 12.3px;
 }
-.letra-boton {
-    display: inline-flex;
-    width: 100%;
-}
-.icono1 {
-    font-size: 100px;
+.boton-icono {
     color: #f35c65;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    font-size: 19px;
+    width: 10%;
 }
-.letra-boton-interna {
-    FONT-FAMILY: Montserrat, sans-serif;
-    line-height: 21px;
-    font-size: 16px;
-    color: #595959;
-    line-height: 21px;
-}
-.cuadro-morado {
-    background-color: #f35c65;
-    padding: 16px;
-    border-radius: 30px;
-}
-p.texto-interno-blanco {
-    FONT-FAMILY: Montserrat, sans-serif;
-    line-height: 21px;
-    font-size: 14px;
-    line-height: 21px;
-    color: #ffffff;
-}
-p.texto-interno {
-    FONT-FAMILY: Montserrat, sans-serif;
-    line-height: 21px;
-    font-size: 14px;
-    color: #595959;
-    line-height: 21px;
-    /* color: #ffffff; */
-}
-.cuadro-morado {
-    margin-top: 20px;
+.boton {
+    padding-top: 9px;
+    padding-bottom: 1px;
 }
 .titulo {
     font-family: Montserrat, sans-serif;
+}
+.boton-icono {
+    color: #f35c65;
+    font-size: 19px;
+    width: 10%;
+}
+.titulo-interno {
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 20px;
+}
+p.texto.interno {
+    FONT-FAMILY: Montserrat, sans-serif;
+    line-height: 21px;
+    font-size: 14px;
+    color: #595959;
+    line-height: 21px;
 }

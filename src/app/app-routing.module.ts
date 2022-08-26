@@ -475,6 +475,66 @@ const routes: Routes = [
     path: 'normativaap10',
     loadChildren: () => import('./mapis/normativaap10/normativaap10.module').then( m => m.Normativaap10PageModule)
   },
+  {
+    path: 'preg1',
+    loadChildren: () => import('./pregunta2/preg1/preg1.module').then( m => m.Preg1PageModule)
+  },
+  {
+    path: 'preg2',
+    loadChildren: () => import('./pregunta2/preg2/preg2.module').then( m => m.Preg2PageModule)
+  },
+  {
+    path: 'preg3',
+    loadChildren: () => import('./pregunta2/preg3/preg3.module').then( m => m.Preg3PageModule)
+  },
+  {
+    path: 'preg4',
+    loadChildren: () => import('./pregunta2/preg4/preg4.module').then( m => m.Preg4PageModule)
+  },
+  {
+    path: 'preg5',
+    loadChildren: () => import('./pregunta2/preg5/preg5.module').then( m => m.Preg5PageModule)
+  },
+  {
+    path: 'pregmenu2',
+    loadChildren: () => import('./pregunta2/pregmenu2/pregmenu2.module').then( m => m.Pregmenu2PageModule)
+  },
+  {
+    path: 'pregmenu222',
+    loadChildren: () => import('./pregunta2/pregmenu222/pregmenu222.module').then( m => m.Pregmenu222PageModule)
+  },
+  {
+    path: 'pregunta6',
+    loadChildren: () => import('./pregunta/pregunta6/pregunta6.module').then( m => m.Pregunta6PageModule)
+  },
+  {
+    path: 'pregunta7',
+    loadChildren: () => import('./pregunta/pregunta7/pregunta7.module').then( m => m.Pregunta7PageModule)
+  },
+  {
+    path: 'pregunta8',
+    loadChildren: () => import('./pregunta/pregunta8/pregunta8.module').then( m => m.Pregunta8PageModule)
+  },
+  {
+    path: 'pregunta9',
+    loadChildren: () => import('./pregunta/pregunta9/pregunta9.module').then( m => m.Pregunta9PageModule)
+  },
+  {
+    path: 'pregunta10',
+    loadChildren: () => import('./pregunta/pregunta10/pregunta10.module').then( m => m.Pregunta10PageModule)
+  },
+  {
+    path: 'pregunta11',
+    loadChildren: () => import('./pregunta/pregunta11/pregunta11.module').then( m => m.Pregunta11PageModule)
+  },
+  {
+    path: 'pregunta12',
+    loadChildren: () => import('./pregunta/pregunta12/pregunta12.module').then( m => m.Pregunta12PageModule)
+  },
+  {
+    path: 'submenu1',
+    loadChildren: () => import('./pregunta/submenu1/submenu1.module').then( m => m.Submenu1PageModule)
+  },
 
 
 ];
