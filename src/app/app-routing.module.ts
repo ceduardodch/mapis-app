@@ -535,6 +535,10 @@ const routes: Routes = [
     path: 'submenu1',
     loadChildren: () => import('./pregunta/submenu1/submenu1.module').then( m => m.Submenu1PageModule)
   },
+  {
+    path: 'homep',
+    loadChildren: () => import('./homeprincipal/homep/homep.module').then( m => m.HomepPageModule)
+  },
 
 
 ];
