@@ -535,6 +535,22 @@ const routes: Routes = [
     path: 'submenu1',
     loadChildren: () => import('./pregunta/submenu1/submenu1.module').then( m => m.Submenu1PageModule)
   },
+  {
+    path: 'homep',
+    loadChildren: () => import('./homeprincipal/homep/homep.module').then( m => m.HomepPageModule)
+  },
+  {
+    path: 'roll',
+    loadChildren: () => import('./rolycompetencias1/roll/roll.module').then( m => m.RollPageModule)
+  },
+  {
+    path: 'menuroll',
+    loadChildren: () => import('./rolycompetencias1/menuroll/menuroll.module').then( m => m.MenurollPageModule)
+  },
+  {
+    path: 'lineamientodeac',
+    loadChildren: () => import('./rolycompetencias1/lineamientodeac/lineamientodeac.module').then( m => m.LineamientodeacPageModule)
+  },
 
 
 ];
