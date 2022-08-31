@@ -12,7 +12,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'homep',
     pathMatch: 'full'
   },
   {
@@ -42,6 +42,34 @@ const routes: Routes = [
   {
     path: 'interseccionalidad',
     loadChildren: () => import('./enfoques/interseccionalidad/interseccionalidad.module').then( m => m.InterseccionalidadPageModule)
+  },
+  {
+    path: 'enfoques2',
+    loadChildren: () => import('./enfoques2/enfoques/enfoques.module').then( m => m.EnfoquesPageModule)
+  },
+  {
+    path: 'derechos2',
+    loadChildren: () => import('./enfoques2/derechos/derechos.module').then( m => m.DerechosPageModule)
+  },
+  {
+    path: 'genero2',
+    loadChildren: () => import('./enfoques2/genero/genero.module').then( m => m.GeneroPageModule)
+  },
+  {
+    path: 'interculturalidad2',
+    loadChildren: () => import('./enfoques2/interculturalidad/interculturalidad.module').then( m => m.InterculturalidadPageModule)
+  },
+  {
+    path: 'intergeneracional2',
+    loadChildren: () => import('./enfoques2/intergeneracional/intergeneracional.module').then( m => m.IntergeneracionalPageModule)
+  },
+  {
+    path: 'integralidad2',
+    loadChildren: () => import('./enfoques2/integralidad/integralidad.module').then( m => m.IntegralidadPageModule)
+  },
+  {
+    path: 'interseccionalidad',
+    loadChildren: () => import('./enfoques2/interseccionalidad/interseccionalidad.module').then( m => m.InterseccionalidadPageModule)
   },
   {
     path: 'menu',
@@ -339,7 +367,8 @@ const routes: Routes = [
   {
     path: 'procedimineto2',
     loadChildren: () => import('./mapis2/procedimineto2/procedimineto2.module').then( m => m.Procedimineto2PageModule)
-  },  {
+  },
+  {
     path: 'procedimientopol',
     loadChildren: () => import('./mapis2/procedimientopol/procedimientopol.module').then( m => m.ProcedimientopolPageModule)
   },
