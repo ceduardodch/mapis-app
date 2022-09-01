@@ -579,7 +579,123 @@ const routes: Routes = [
   {
     path: 'lineamientodeac',
     loadChildren: () => import('./rolycompetencias1/lineamientodeac/lineamientodeac.module').then( m => m.LineamientodeacPageModule)
+  },  {
+    path: 'casoseco2',
+    loadChildren: () => import('./mapis2/casoseco2/casoseco2.module').then( m => m.Casoseco2PageModule)
   },
+  {
+    path: 'casosgineco2',
+    loadChildren: () => import('./mapis2/casosgineco2/casosgineco2.module').then( m => m.Casosgineco2PageModule)
+  },
+  {
+    path: 'casospoli2',
+    loadChildren: () => import('./mapis2/casospoli2/casospoli2.module').then( m => m.Casospoli2PageModule)
+  },
+  {
+    path: 'casospsi2a',
+    loadChildren: () => import('./mapis2/casospsi2a/casospsi2a.module').then( m => m.Casospsi2aPageModule)
+  },
+  {
+    path: 'casospsi2b',
+    loadChildren: () => import('./mapis2/casospsi2b/casospsi2b.module').then( m => m.Casospsi2bPageModule)
+  },
+  {
+    path: 'casossexa',
+    loadChildren: () => import('./mapis2/casossexa/casossexa.module').then( m => m.CasossexaPageModule)
+  },
+  {
+    path: 'casossexb',
+    loadChildren: () => import('./mapis2/casossexb/casossexb.module').then( m => m.CasossexbPageModule)
+  },
+  {
+    path: 'casossexdig2',
+    loadChildren: () => import('./mapis2/casossexdig2/casossexdig2.module').then( m => m.Casossexdig2PageModule)
+  },
+  {
+    path: 'casossim2',
+    loadChildren: () => import('./mapis2/casossim2/casossim2.module').then( m => m.Casossim2PageModule)
+  },
+  {
+    path: 'normativaap12',
+    loadChildren: () => import('./mapis2/normativaap12/normativaap12.module').then( m => m.Normativaap12PageModule)
+  },
+  {
+    path: 'normativaap22',
+    loadChildren: () => import('./mapis2/normativaap22/normativaap22.module').then( m => m.Normativaap22PageModule)
+  },
+  {
+    path: 'normativaap32',
+    loadChildren: () => import('./mapis2/normativaap32/normativaap32.module').then( m => m.Normativaap32PageModule)
+  },
+  {
+    path: 'normativaap42',
+    loadChildren: () => import('./mapis2/normativaap42/normativaap42.module').then( m => m.Normativaap42PageModule)
+  },
+  {
+    path: 'normativaap52',
+    loadChildren: () => import('./mapis2/normativaap52/normativaap52.module').then( m => m.Normativaap52PageModule)
+  },
+  {
+    path: 'normativaap62',
+    loadChildren: () => import('./mapis2/normativaap62/normativaap62.module').then( m => m.Normativaap62PageModule)
+  },
+  {
+    path: 'normativaap72',
+    loadChildren: () => import('./mapis2/normativaap72/normativaap72.module').then( m => m.Normativaap72PageModule)
+  },
+  {
+    path: 'normativaap82',
+    loadChildren: () => import('./mapis2/normativaap82/normativaap82.module').then( m => m.Normativaap82PageModule)
+  },
+  {
+    path: 'normativaap92',
+    loadChildren: () => import('./mapis2/normativaap92/normativaap92.module').then( m => m.Normativaap92PageModule)
+  },
+  {
+    path: 'normativaap102',
+    loadChildren: () => import('./mapis2/normativaap102/normativaap102.module').then( m => m.Normativaap102PageModule)
+  },
+  {
+    path: 'pautas12',
+    loadChildren: () => import('./mapis2/pautas12/pautas12.module').then( m => m.Pautas12PageModule)
+  },
+  {
+    path: 'pautas22',
+    loadChildren: () => import('./mapis2/pautas22/pautas22.module').then( m => m.Pautas22PageModule)
+  },
+  {
+    path: 'pautas32',
+    loadChildren: () => import('./mapis2/pautas32/pautas32.module').then( m => m.Pautas32PageModule)
+  },
+  {
+    path: 'pautas42',
+    loadChildren: () => import('./mapis2/pautas42/pautas42.module').then( m => m.Pautas42PageModule)
+  },
+  {
+    path: 'pautas52',
+    loadChildren: () => import('./mapis2/pautas52/pautas52.module').then( m => m.Pautas52PageModule)
+  },
+  {
+    path: 'pautas62',
+    loadChildren: () => import('./mapis2/pautas62/pautas62.module').then( m => m.Pautas62PageModule)
+  },
+  {
+    path: 'pautas72',
+    loadChildren: () => import('./mapis2/pautas72/pautas72.module').then( m => m.Pautas72PageModule)
+  },
+  {
+    path: 'pautas82',
+    loadChildren: () => import('./mapis2/pautas82/pautas82.module').then( m => m.Pautas82PageModule)
+  },
+  {
+    path: 'pautas92',
+    loadChildren: () => import('./mapis2/pautas92/pautas92.module').then( m => m.Pautas92PageModule)
+  },
+  {
+    path: 'pautas102',
+    loadChildren: () => import('./mapis2/pautas102/pautas102.module').then( m => m.Pautas102PageModule)
+  },
+
 
 
 ];
