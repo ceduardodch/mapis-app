@@ -695,6 +695,10 @@ const routes: Routes = [
     path: 'pautas102',
     loadChildren: () => import('./mapis2/pautas102/pautas102.module').then( m => m.Pautas102PageModule)
   },
+  {
+    path: 'ayuda1',
+    loadChildren: () => import('./ayuda/ayuda1/ayuda1.module').then( m => m.Ayuda1PageModule)
+  },
 
 
 
