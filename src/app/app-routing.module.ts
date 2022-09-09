@@ -699,6 +699,186 @@ const routes: Routes = [
     path: 'ayuda1',
     loadChildren: () => import('./ayuda/ayuda1/ayuda1.module').then( m => m.Ayuda1PageModule)
   },
+  {
+    path: 'link1',
+    loadChildren: () => import('./rolycompetencias/link1/link1.module').then( m => m.Link1PageModule)
+  },
+  {
+    path: 'link2',
+    loadChildren: () => import('./rolycompetencias/link2/link2.module').then( m => m.Link2PageModule)
+  },
+  {
+    path: 'link3',
+    loadChildren: () => import('./rolycompetencias/link3/link3.module').then( m => m.Link3PageModule)
+  },
+  {
+    path: 'link4',
+    loadChildren: () => import('./rolycompetencias/link4/link4.module').then( m => m.Link4PageModule)
+  },
+  {
+    path: 'link5',
+    loadChildren: () => import('./rolycompetencias/link5/link5.module').then( m => m.Link5PageModule)
+  },
+  {
+    path: 'link6',
+    loadChildren: () => import('./rolycompetencias/link6/link6.module').then( m => m.Link6PageModule)
+  },
+  {
+    path: 'link7',
+    loadChildren: () => import('./rolycompetencias/link7/link7.module').then( m => m.Link7PageModule)
+  },
+  {
+    path: 'link8',
+    loadChildren: () => import('./rolycompetencias/link8/link8.module').then( m => m.Link8PageModule)
+  },
+  {
+    path: 'link9',
+    loadChildren: () => import('./rolycompetencias/link9/link9.module').then( m => m.Link9PageModule)
+  },
+  {
+    path: 'link10',
+    loadChildren: () => import('./rolycompetencias/link10/link10.module').then( m => m.Link10PageModule)
+  },
+  {
+    path: 'link11',
+    loadChildren: () => import('./rolycompetencias/link11/link11.module').then( m => m.Link11PageModule)
+  },
+  {
+    path: 'link12',
+    loadChildren: () => import('./rolycompetencias/link12/link12.module').then( m => m.Link12PageModule)
+  },
+  {
+    path: 'link13',
+    loadChildren: () => import('./rolycompetencias/link13/link13.module').then( m => m.Link13PageModule)
+  },
+  {
+    path: 'link14',
+    loadChildren: () => import('./rolycompetencias/link14/link14.module').then( m => m.Link14PageModule)
+  },
+  {
+    path: 'link15',
+    loadChildren: () => import('./rolycompetencias/link15/link15.module').then( m => m.Link15PageModule)
+  },
+  {
+    path: 'link16',
+    loadChildren: () => import('./rolycompetencias/link16/link16.module').then( m => m.Link16PageModule)
+  },
+  {
+    path: 'link17',
+    loadChildren: () => import('./rolycompetencias/link17/link17.module').then( m => m.Link17PageModule)
+  },
+  {
+    path: 'link18',
+    loadChildren: () => import('./rolycompetencias/link18/link18.module').then( m => m.Link18PageModule)
+  },
+  {
+    path: 'link19',
+    loadChildren: () => import('./rolycompetencias/link19/link19.module').then( m => m.Link19PageModule)
+  },
+  {
+    path: 'link20',
+    loadChildren: () => import('./rolycompetencias/link20/link20.module').then( m => m.Link20PageModule)
+  },
+  {
+    path: 'link21',
+    loadChildren: () => import('./rolycompetencias/link21/link21.module').then( m => m.Link21PageModule)
+  },
+  {
+    path: 'link22',
+    loadChildren: () => import('./rolycompetencias/link22/link22.module').then( m => m.Link22PageModule)
+  },
+  {
+    path: 'link23',
+    loadChildren: () => import('./rolycompetencias/link23/link23.module').then( m => m.Link23PageModule)
+  },
+  {
+    path: 'link24',
+    loadChildren: () => import('./rolycompetencias/link24/link24.module').then( m => m.Link24PageModule)
+  },
+  {
+    path: 'link25',
+    loadChildren: () => import('./rolycompetencias/link25/link25.module').then( m => m.Link25PageModule)
+  },
+  {
+    path: 'link26',
+    loadChildren: () => import('./rolycompetencias/link26/link26.module').then( m => m.Link26PageModule)
+  },
+  {
+    path: 'link27',
+    loadChildren: () => import('./rolycompetencias/link27/link27.module').then( m => m.Link27PageModule)
+  },
+  {
+    path: 'link28',
+    loadChildren: () => import('./rolycompetencias/link28/link28.module').then( m => m.Link28PageModule)
+  },
+  {
+    path: 'link29',
+    loadChildren: () => import('./rolycompetencias/link29/link29.module').then( m => m.Link29PageModule)
+  },
+  {
+    path: 'link30',
+    loadChildren: () => import('./rolycompetencias/link30/link30.module').then( m => m.Link30PageModule)
+  },
+  {
+    path: 'link31',
+    loadChildren: () => import('./rolycompetencias/link31/link31.module').then( m => m.Link31PageModule)
+  },
+  {
+    path: 'link32',
+    loadChildren: () => import('./rolycompetencias/link32/link32.module').then( m => m.Link32PageModule)
+  },
+  {
+    path: 'link33',
+    loadChildren: () => import('./rolycompetencias/link33/link33.module').then( m => m.Link33PageModule)
+  },
+  {
+    path: 'link34',
+    loadChildren: () => import('./rolycompetencias/link34/link34.module').then( m => m.Link34PageModule)
+  },
+  {
+    path: 'link35',
+    loadChildren: () => import('./rolycompetencias/link35/link35.module').then( m => m.Link35PageModule)
+  },
+  {
+    path: 'link36',
+    loadChildren: () => import('./rolycompetencias/link36/link36.module').then( m => m.Link36PageModule)
+  },
+  {
+    path: 'link37',
+    loadChildren: () => import('./rolycompetencias/link37/link37.module').then( m => m.Link37PageModule)
+  },
+  {
+    path: 'link38',
+    loadChildren: () => import('./rolycompetencias/link38/link38.module').then( m => m.Link38PageModule)
+  },
+  {
+    path: 'link39',
+    loadChildren: () => import('./rolycompetencias/link39/link39.module').then( m => m.Link39PageModule)
+  },
+  {
+    path: 'link40',
+    loadChildren: () => import('./rolycompetencias/link40/link40.module').then( m => m.Link40PageModule)
+  },
+  {
+    path: 'link41',
+    loadChildren: () => import('./rolycompetencias/link41/link41.module').then( m => m.Link41PageModule)
+  },
+  {
+    path: 'link42',
+    loadChildren: () => import('./rolycompetencias/link42/link42.module').then( m => m.Link42PageModule)
+  },
+  {
+    path: 'link43',
+    loadChildren: () => import('./rolycompetencias/link43/link43.module').then( m => m.Link43PageModule)
+  },
+  {
+    path: 'link44',
+    loadChildren: () => import('./rolycompetencias/link44/link44.module').then( m => m.Link44PageModule)
+  },
+  {
+    path: 'link45',
+    loadChildren: () => import('./rolycompetencias/link45/link45.module').then( m => m.Link45PageModule)
+  },
 
 
 
