@@ -1035,6 +1035,50 @@ const routes: Routes = [
     path: 'otrolink20',
     loadChildren: () => import('./mapis/otrolink20/otrolink20.module').then( m => m.Otrolink20PageModule)
   },
+  {
+    path: 'otrolink21',
+    loadChildren: () => import('./mapis/otrolink21/otrolink21.module').then( m => m.Otrolink21PageModule)
+  },
+  {
+    path: 'otrolink22',
+    loadChildren: () => import('./mapis/otrolink22/otrolink22.module').then( m => m.Otrolink22PageModule)
+  },
+  {
+    path: 'otrolink23',
+    loadChildren: () => import('./mapis/otrolink23/otrolink23.module').then( m => m.Otrolink23PageModule)
+  },
+  {
+    path: 'otrolink24',
+    loadChildren: () => import('./mapis/otrolink24/otrolink24.module').then( m => m.Otrolink24PageModule)
+  },
+  {
+    path: 'otrolink25',
+    loadChildren: () => import('./mapis/otrolink25/otrolink25.module').then( m => m.Otrolink25PageModule)
+  },
+  {
+    path: 'otrolink26',
+    loadChildren: () => import('./mapis/otrolink26/otrolink26.module').then( m => m.Otrolink26PageModule)
+  },
+  {
+    path: 'otrolink27',
+    loadChildren: () => import('./mapis/otrolink27/otrolink27.module').then( m => m.Otrolink27PageModule)
+  },
+  {
+    path: 'otrolink28',
+    loadChildren: () => import('./mapis/otrolink28/otrolink28.module').then( m => m.Otrolink28PageModule)
+  },
+  {
+    path: 'otrolink29',
+    loadChildren: () => import('./mapis/otrolink29/otrolink29.module').then( m => m.Otrolink29PageModule)
+  },
+  {
+    path: 'otrolink30',
+    loadChildren: () => import('./mapis/otrolink30/otrolink30.module').then( m => m.Otrolink30PageModule)
+  },
+  {
+    path: 'otrolink31',
+    loadChildren: () => import('./mapis/otrolink31/otrolink31.module').then( m => m.Otrolink31PageModule)
+  },
 
 
 
