@@ -879,6 +879,162 @@ const routes: Routes = [
     path: 'link45',
     loadChildren: () => import('./rolycompetencias/link45/link45.module').then( m => m.Link45PageModule)
   },
+  {
+    path: 'link42',
+    loadChildren: () => import('./mapis/link42/link42.module').then( m => m.Link42PageModule)
+  },
+  {
+    path: 'link43',
+    loadChildren: () => import('./mapis/link43/link43.module').then( m => m.Link43PageModule)
+  },
+  {
+    path: 'link44',
+    loadChildren: () => import('./mapis/link44/link44.module').then( m => m.Link44PageModule)
+  },
+  {
+    path: 'link45',
+    loadChildren: () => import('./mapis/link45/link45.module').then( m => m.Link45PageModule)
+  },
+  {
+    path: 'link46',
+    loadChildren: () => import('./mapis/link46/link46.module').then( m => m.Link46PageModule)
+  },
+  {
+    path: 'link47',
+    loadChildren: () => import('./mapis/link47/link47.module').then( m => m.Link47PageModule)
+  },
+  {
+    path: 'link48',
+    loadChildren: () => import('./mapis/link48/link48.module').then( m => m.Link48PageModule)
+  },
+  {
+    path: 'link49',
+    loadChildren: () => import('./mapis/link49/link49.module').then( m => m.Link49PageModule)
+  },
+  {
+    path: 'link50',
+    loadChildren: () => import('./mapis/link50/link50.module').then( m => m.Link50PageModule)
+  },
+  {
+    path: 'link51',
+    loadChildren: () => import('./mapis/link51/link51.module').then( m => m.Link51PageModule)
+  },
+  {
+    path: 'link52',
+    loadChildren: () => import('./mapis/link52/link52.module').then( m => m.Link52PageModule)
+  },
+  {
+    path: 'link53',
+    loadChildren: () => import('./mapis/link53/link53.module').then( m => m.Link53PageModule)
+  },
+  {
+    path: 'link54',
+    loadChildren: () => import('./mapis/link54/link54.module').then( m => m.Link54PageModule)
+  },
+  {
+    path: 'link55',
+    loadChildren: () => import('./mapis/link55/link55.module').then( m => m.Link55PageModule)
+  },
+  {
+    path: 'link56',
+    loadChildren: () => import('./mapis/link56/link56.module').then( m => m.Link56PageModule)
+  },
+  {
+    path: 'link57',
+    loadChildren: () => import('./mapis/link57/link57.module').then( m => m.Link57PageModule)
+  },
+  {
+    path: 'link58',
+    loadChildren: () => import('./mapis/link58/link58.module').then( m => m.Link58PageModule)
+  },
+  {
+    path: 'link59',
+    loadChildren: () => import('./mapis/link59/link59.module').then( m => m.Link59PageModule)
+  },
+  {
+    path: 'link60',
+    loadChildren: () => import('./mapis/link60/link60.module').then( m => m.Link60PageModule)
+  },
+  {
+    path: 'otrolink1',
+    loadChildren: () => import('./mapis/otrolink1/otrolink1.module').then( m => m.Otrolink1PageModule)
+  },
+  {
+    path: 'otrolink2',
+    loadChildren: () => import('./mapis/otrolink2/otrolink2.module').then( m => m.Otrolink2PageModule)
+  },
+  {
+    path: 'otrolink3',
+    loadChildren: () => import('./mapis/otrolink3/otrolink3.module').then( m => m.Otrolink3PageModule)
+  },
+  {
+    path: 'otrolink4',
+    loadChildren: () => import('./mapis/otrolink4/otrolink4.module').then( m => m.Otrolink4PageModule)
+  },
+  {
+    path: 'otrolink5',
+    loadChildren: () => import('./mapis/otrolink5/otrolink5.module').then( m => m.Otrolink5PageModule)
+  },
+  {
+    path: 'otrolink6',
+    loadChildren: () => import('./mapis/otrolink6/otrolink6.module').then( m => m.Otrolink6PageModule)
+  },
+  {
+    path: 'otrolink7',
+    loadChildren: () => import('./mapis/otrolink7/otrolink7.module').then( m => m.Otrolink7PageModule)
+  },
+  {
+    path: 'otrolink8',
+    loadChildren: () => import('./mapis/otrolink8/otrolink8.module').then( m => m.Otrolink8PageModule)
+  },
+  {
+    path: 'otrolink9',
+    loadChildren: () => import('./mapis/otrolink9/otrolink9.module').then( m => m.Otrolink9PageModule)
+  },
+  {
+    path: 'otrolink10',
+    loadChildren: () => import('./mapis/otrolink10/otrolink10.module').then( m => m.Otrolink10PageModule)
+  },
+  {
+    path: 'otrolink11',
+    loadChildren: () => import('./mapis/otrolink11/otrolink11.module').then( m => m.Otrolink11PageModule)
+  },
+  {
+    path: 'otrolink12',
+    loadChildren: () => import('./mapis/otrolink12/otrolink12.module').then( m => m.Otrolink12PageModule)
+  },
+  {
+    path: 'otrolink13',
+    loadChildren: () => import('./mapis/otrolink13/otrolink13.module').then( m => m.Otrolink13PageModule)
+  },
+  {
+    path: 'otrolink14',
+    loadChildren: () => import('./mapis/otrolink14/otrolink14.module').then( m => m.Otrolink14PageModule)
+  },
+  {
+    path: 'otrolink15',
+    loadChildren: () => import('./mapis/otrolink15/otrolink15.module').then( m => m.Otrolink15PageModule)
+  },
+  {
+    path: 'otrolink16',
+    loadChildren: () => import('./mapis/otrolink16/otrolink16.module').then( m => m.Otrolink16PageModule)
+  },
+  {
+    path: 'otrolink17',
+    loadChildren: () => import('./mapis/otrolink17/otrolink17.module').then( m => m.Otrolink17PageModule)
+  },
+  {
+    path: 'otrolink18',
+    loadChildren: () => import('./mapis/otrolink18/otrolink18.module').then( m => m.Otrolink18PageModule)
+  },
+  {
+    path: 'otrolink19',
+    loadChildren: () => import('./mapis/otrolink19/otrolink19.module').then( m => m.Otrolink19PageModule)
+  },
+  {
+    path: 'otrolink20',
+    loadChildren: () => import('./mapis/otrolink20/otrolink20.module').then( m => m.Otrolink20PageModule)
+  },
 
 
 
