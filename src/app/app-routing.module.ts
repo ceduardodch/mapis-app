@@ -1,14 +1,21 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { SimpleLoadingStrategy } from './SimpleLoadingStrategy';
 
 const routes: Routes = [
   {
     path: 'home',
-    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
+    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule),
+    data: {
+      preload: true
+    },
   },
   {
     path: 'home2',
-    loadChildren: () => import('./home2/home.module').then( m => m.HomePageModule)
+    loadChildren: () => import('./home2/home.module').then( m => m.HomePageModule),
+    data: {
+      preload: true
+    },
   },
   {
     path: '',
@@ -17,180 +24,344 @@ const routes: Routes = [
   },
   {
     path: 'enfoques',
-    loadChildren: () => import('./enfoques/enfoques/enfoques.module').then( m => m.EnfoquesPageModule)
+    loadChildren: () => import('./enfoques/enfoques/enfoques.module').then( m => m.EnfoquesPageModule),
+    data: {
+      preload: true
+    },
   },
   {
     path: 'derechos',
-    loadChildren: () => import('./enfoques/derechos/derechos.module').then( m => m.DerechosPageModule)
+    loadChildren: () => import('./enfoques/derechos/derechos.module').then( m => m.DerechosPageModule),
+    data: {
+      preload: true
+    },
   },
   {
     path: 'genero',
-    loadChildren: () => import('./enfoques/genero/genero.module').then( m => m.GeneroPageModule)
+    loadChildren: () => import('./enfoques/genero/genero.module').then( m => m.GeneroPageModule),
+        data: {
+      preload: true
+    },
   },
   {
     path: 'interculturalidad',
     loadChildren: () => import('./enfoques/interculturalidad/interculturalidad.module').then( m => m.InterculturalidadPageModule)
+    ,data: {
+      preload: true
+    },
   },
   {
     path: 'intergeneracional',
     loadChildren: () => import('./enfoques/intergeneracional/intergeneracional.module').then( m => m.IntergeneracionalPageModule)
+    ,data: {
+      preload: true
+    },
   },
   {
     path: 'integralidad',
     loadChildren: () => import('./enfoques/integralidad/integralidad.module').then( m => m.IntegralidadPageModule)
+    ,data: {
+      preload: true
+    },
   },
   {
     path: 'interseccionalidad',
     loadChildren: () => import('./enfoques/interseccionalidad/interseccionalidad.module').then( m => m.InterseccionalidadPageModule)
+    ,data: {
+      preload: true
+    },
   },
   {
     path: 'enfoques2',
     loadChildren: () => import('./enfoques2/enfoques/enfoques.module').then( m => m.EnfoquesPageModule)
+    ,data: {
+      preload: true
+    },
   },
   {
     path: 'derechos2',
     loadChildren: () => import('./enfoques2/derechos/derechos.module').then( m => m.DerechosPageModule)
+    ,data: {
+      preload: true
+    },
   },
   {
     path: 'genero2',
     loadChildren: () => import('./enfoques2/genero/genero.module').then( m => m.GeneroPageModule)
+    ,data: {
+      preload: true
+    },
   },
   {
     path: 'interculturalidad2',
     loadChildren: () => import('./enfoques2/interculturalidad/interculturalidad.module').then( m => m.InterculturalidadPageModule)
+    ,data: {
+      preload: true
+    },
   },
   {
     path: 'intergeneracional2',
     loadChildren: () => import('./enfoques2/intergeneracional/intergeneracional.module').then( m => m.IntergeneracionalPageModule)
+    ,data: {
+      preload: true
+    },
   },
   {
     path: 'integralidad2',
     loadChildren: () => import('./enfoques2/integralidad/integralidad.module').then( m => m.IntegralidadPageModule)
+    ,data: {
+      preload: true
+    },
   },
   {
     path: 'interseccionalidad',
     loadChildren: () => import('./enfoques2/interseccionalidad/interseccionalidad.module').then( m => m.InterseccionalidadPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'menu',
     loadChildren: () => import('./rolycompetencias/menu/menu.module').then( m => m.MenuPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
+  
   {
     path: 'rol',
     loadChildren: () => import('./rolycompetencias/rol/rol.module').then( m => m.RolPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'lineamientos',
     loadChildren: () => import('./rolycompetencias/lineamientos/lineamientos.module').then( m => m.LineamientosPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
 
   {
     path: 'violencia',
     loadChildren: () => import('./mapis/violencia/violencia.module').then( m => m.ViolenciaPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'violenciafisica',
     loadChildren: () => import('./mapis/violenciafisica/violenciafisica.module').then( m => m.ViolenciafisicaPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'violenciapsicologica',
     loadChildren: () => import('./mapis/violenciapsicologica/violenciapsicologica.module').then( m => m.ViolenciapsicologicaPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'violenciasexual',
     loadChildren: () => import('./mapis/violenciasexual/violenciasexual.module').then( m => m.ViolenciasexualPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'violenciaeconomica',
     loadChildren: () => import('./mapis/violenciaeconomica/violenciaeconomica.module').then( m => m.ViolenciaeconomicaPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'violenciasimbolica',
     loadChildren: () => import('./mapis/violenciasimbolica/violenciasimbolica.module').then( m => m.ViolenciasimbolicaPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'violenciapolitica',
     loadChildren: () => import('./mapis/violenciapolitica/violenciapolitica.module').then( m => m.ViolenciapoliticaPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'violenciagineco',
     loadChildren: () => import('./mapis/violenciagineco/violenciagineco.module').then( m => m.ViolenciaginecoPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'violenciasexdig',
     loadChildren: () => import('./mapis/violenciasexdig/violenciasexdig.module').then( m => m.ViolenciasexdigPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'ambito',
     loadChildren: () => import('./mapis/ambito/ambito.module').then( m => m.AmbitoPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'intrafamiliar',
     loadChildren: () => import('./mapis/intrafamiliar/intrafamiliar.module').then( m => m.IntrafamiliarPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'laboral',
     loadChildren: () => import('./mapis/laboral/laboral.module').then( m => m.LaboralPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'educativo',
     loadChildren: () => import('./mapis/educativo/educativo.module').then( m => m.EducativoPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'publico',
     loadChildren: () => import('./mapis/publico/publico.module').then( m => m.PublicoPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'deportivo',
     loadChildren: () => import('./mapis/deportivo/deportivo.module').then( m => m.DeportivoPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'institucional',
     loadChildren: () => import('./mapis/institucional/institucional.module').then( m => m.InstitucionalPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'centros',
     loadChildren: () => import('./mapis/centros/centros.module').then( m => m.CentrosPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'mediatico',
     loadChildren: () => import('./mapis/mediatico/mediatico.module').then( m => m.MediaticoPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'emergencia',
     loadChildren: () => import('./mapis/emergencia/emergencia.module').then( m => m.EmergenciaPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'menu1',
     loadChildren: () => import('./mapis/menu1/menu1.module').then( m => m.Menu1PageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'menu2',
     loadChildren: () => import('./mapis/menu2/menu2.module').then( m => m.Menu2PageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'menu3',
     loadChildren: () => import('./mapis/menu3/menu3.module').then( m => m.Menu3PageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'menu4',
     loadChildren: () => import('./mapis/menu4/menu4.module').then( m => m.Menu4PageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'menu5',
     loadChildren: () => import('./mapis/menu5/menu5.module').then( m => m.Menu5PageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'violenciagenero',
     loadChildren: () => import('./mapis/violenciagenero/violenciagenero.module').then( m => m.ViolenciageneroPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'menu6',
     loadChildren: () => import('./mapis/menu6/menu6.module').then( m => m.Menu6PageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'menu7',
     loadChildren: () => import('./mapis/menu7/menu7.module').then( m => m.Menu7PageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   
 
@@ -199,90 +370,178 @@ const routes: Routes = [
   {
     path: 'violencia2',
     loadChildren: () => import('./mapis2/violencia/violencia.module').then( m => m.ViolenciaPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'violenciafisica2',
     loadChildren: () => import('./mapis2/violenciafisica/violenciafisica.module').then( m => m.ViolenciafisicaPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'violenciapsicologica2',
     loadChildren: () => import('./mapis2/violenciapsicologica/violenciapsicologica.module').then( m => m.ViolenciapsicologicaPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'violenciasexual2',
     loadChildren: () => import('./mapis2/violenciasexual/violenciasexual.module').then( m => m.ViolenciasexualPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'violenciaeconomica2',
     loadChildren: () => import('./mapis2/violenciaeconomica/violenciaeconomica.module').then( m => m.ViolenciaeconomicaPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'violenciasimbolica2',
     loadChildren: () => import('./mapis2/violenciasimbolica/violenciasimbolica.module').then( m => m.ViolenciasimbolicaPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'violenciapolitica2',
     loadChildren: () => import('./mapis2/violenciapolitica/violenciapolitica.module').then( m => m.ViolenciapoliticaPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'violenciagineco2',
     loadChildren: () => import('./mapis2/violenciagineco/violenciagineco.module').then( m => m.ViolenciaginecoPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'violenciasexdig2',
     loadChildren: () => import('./mapis2/violenciasexdig/violenciasexdig.module').then( m => m.ViolenciasexdigPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'ambito2',
     loadChildren: () => import('./mapis2/ambito/ambito.module').then( m => m.AmbitoPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'intrafamiliar2',
     loadChildren: () => import('./mapis2/intrafamiliar/intrafamiliar.module').then( m => m.IntrafamiliarPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'laboral2',
     loadChildren: () => import('./mapis2/laboral/laboral.module').then( m => m.LaboralPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'educativo2',
     loadChildren: () => import('./mapis2/educativo/educativo.module').then( m => m.EducativoPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'publico2',
     loadChildren: () => import('./mapis2/publico/publico.module').then( m => m.PublicoPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'deportivo2',
     loadChildren: () => import('./mapis2/deportivo/deportivo.module').then( m => m.DeportivoPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'institucional2',
     loadChildren: () => import('./mapis2/institucional/institucional.module').then( m => m.InstitucionalPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'centros2',
     loadChildren: () => import('./mapis2/centros/centros.module').then( m => m.CentrosPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'mediatico2',
     loadChildren: () => import('./mapis2/mediatico/mediatico.module').then( m => m.MediaticoPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'emergencia2',
     loadChildren: () => import('./mapis2/emergencia/emergencia.module').then( m => m.EmergenciaPageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'menu12',
     loadChildren: () => import('./mapis2/menu1/menu1.module').then( m => m.Menu1PageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'menu22',
     loadChildren: () => import('./mapis2/menu2/menu2.module').then( m => m.Menu2PageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'menu32',
     loadChildren: () => import('./mapis2/menu3/menu3.module').then( m => m.Menu3PageModule)
+    ,data: {
+      preload: true
+    },
+  
   },
   {
     path: 'menu42',
@@ -579,7 +838,8 @@ const routes: Routes = [
   {
     path: 'lineamientodeac',
     loadChildren: () => import('./rolycompetencias1/lineamientodeac/lineamientodeac.module').then( m => m.LineamientodeacPageModule)
-  },  {
+  },
+  {
     path: 'casoseco2',
     loadChildren: () => import('./mapis2/casoseco2/casoseco2.module').then( m => m.Casoseco2PageModule)
   },
@@ -1084,7 +1344,10 @@ const routes: Routes = [
 
 ];
 
+
 @NgModule({
+  providers: [SimpleLoadingStrategy],
+
   imports: [
     RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })
   ],

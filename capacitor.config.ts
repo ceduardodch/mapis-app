@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'mapis-app',
+  appId: 'io.ionic.mapis',
+  appName: 'Mapis & Acciones Urgentes',
   webDir: 'www',
   bundledWebRuntime: false,
   cordova: {
@@ -15,6 +15,9 @@ const config: CapacitorConfig = {
       SplashScreen: 'screen',
       SplashScreenDelay: '3000'
     }
+  },
+  server: {
+    cleartext: true
   }
 };
 
