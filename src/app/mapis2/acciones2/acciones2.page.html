@@ -10,9 +10,27 @@
 <ion-content>
   <div class="fondo-gris">
   <div class="titulo-interno">ACCIONES URGENTES</div>
-  <p class="texto-interno"><a href="/link13">Son aquellas actuaciones que la Policía Nacional, </a>debe ejecutar de forma inmediata, ya sea de oficio o a petición de parte, con la finalidad de evitar o mitigar el riesgo o la vulneración del derecho a la integridad personal de las víctimas de violencia contra las mujeres.</p><br>
+  <p class="texto-interno">
+
+    <ion-button id="auto-trigger">Son aquellas actuaciones que la Policía Nacional,</ion-button>
+    <ion-popover trigger="auto-trigger" size="auto">
+      <ng-template>
+        <ion-content class="ion-padding">Aquellas actuaciones que la Policía Nacional, en el marco del respeto a los derechos humanos, debe ejecutar de forma inmediata, ya sea de oficio o a petición de parte, con la única finalidad de evitar o mitigar el riesgo o la vulneración del derechos a la integridad personal de las víctimas de violencia contra las mujeres.</ion-content>
+      </ng-template>
+    </ion-popover>
+
+    debe ejecutar de forma inmediata, ya sea de oficio o a petición de parte, con la finalidad de evitar o mitigar el riesgo o la vulneración del derecho a la integridad personal de las víctimas de violencia contra las mujeres.</p><br>
       <div class="titulo-interno">¿Quiénes pueden solicitar Acciones Urgentes?</div>
-      <p class="texto-interno"><a href="/link14">Cualquier persona o grupo de personas</a> que conozcan de hechos que impliquen violencia contra las mujeres podrán solicitar acciones urgentes a favor de las víctimas.</p>
+      <p class="texto-interno">
+      <ion-button id="auto-trigger2">Cualquier persona o grupo de personas</ion-button>
+      <ion-popover trigger="auto-trigger" size="auto">
+        <ng-template>
+          <ion-content class="ion-padding">De manera verbal o escrita, y sin la necesidad de patrocinio profesional.</ion-content>
+        </ng-template>
+      </ion-popover>
+  
+      que conozcan de hechos que impliquen violencia contra las mujeres podrán solicitar acciones urgentes a favor de las víctimas.</p>
+      
         <br>
         <div class="titulo-interno">Tipos de Acciones Urgentes:</div>
         <p class="texto-interno">Los miembros de la Policía Nacional ejecutarán las siguientes acciones urgentes:</p><br>
