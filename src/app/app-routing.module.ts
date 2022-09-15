@@ -1338,7 +1338,155 @@ const routes: Routes = [
   {
     path: 'otrolink31',
     loadChildren: () => import('./mapis/otrolink31/otrolink31.module').then( m => m.Otrolink31PageModule)
+  },  {
+    path: 'casosf1',
+    loadChildren: () => import('./enfoques2/casosf1/casosf1.module').then( m => m.Casosf1PageModule)
   },
+  {
+    path: 'pautas1b',
+    loadChildren: () => import('./enfoques/pautas1b/pautas1b.module').then( m => m.Pautas1bPageModule)
+  },
+  {
+    path: 'normativas1b',
+    loadChildren: () => import('./enfoques/normativas1b/normativas1b.module').then( m => m.Normativas1bPageModule)
+  },
+  {
+    path: 'casosfb',
+    loadChildren: () => import('./enfoques/casosfb/casosfb.module').then( m => m.CasosfbPageModule)
+  },
+  {
+    path: 'casosdb',
+    loadChildren: () => import('./enfoques/casosdb/casosdb.module').then( m => m.CasosdbPageModule)
+  },
+  {
+    path: 'normativas2b',
+    loadChildren: () => import('./enfoques/normativas2b/normativas2b.module').then( m => m.Normativas2bPageModule)
+  },
+  {
+    path: 'pautas2b',
+    loadChildren: () => import('./enfoques/pautas2b/pautas2b.module').then( m => m.Pautas2bPageModule)
+  },
+  {
+    path: 'pautas4b',
+    loadChildren: () => import('./enfoques/pautas4b/pautas4b.module').then( m => m.Pautas4bPageModule)
+  },
+  {
+    path: 'normativas4b',
+    loadChildren: () => import('./enfoques/normativas4b/normativas4b.module').then( m => m.Normativas4bPageModule)
+  },
+  {
+    path: 'casoshb',
+    loadChildren: () => import('./enfoques/casoshb/casoshb.module').then( m => m.CasoshbPageModule)
+  },
+  {
+    path: 'normativas7b',
+    loadChildren: () => import('./enfoques/normativas7b/normativas7b.module').then( m => m.Normativas7bPageModule)
+  },
+  {
+    path: 'pautas7b',
+    loadChildren: () => import('./enfoques/pautas7b/pautas7b.module').then( m => m.Pautas7bPageModule)
+  },
+  {
+    path: 'casoseb',
+    loadChildren: () => import('./enfoques/casoseb/casoseb.module').then( m => m.CasosebPageModule)
+  },
+  {
+    path: 'normativas10b',
+    loadChildren: () => import('./enfoques/normativas10b/normativas10b.module').then( m => m.Normativas10bPageModule)
+  },
+  {
+    path: 'pautas10b',
+    loadChildren: () => import('./enfoques/pautas10b/pautas10b.module').then( m => m.Pautas10bPageModule)
+  },
+  {
+    path: 'pautas10zzz',
+    loadChildren: () => import('./enfoques/pautas10zzz/pautas10zzz.module').then( m => m.Pautas10zzzPageModule)
+  },
+  {
+    path: 'casosgb',
+    loadChildren: () => import('./enfoques/casosgb/casosgb.module').then( m => m.CasosgbPageModule)
+  },
+  {
+    path: 'pautas12b',
+    loadChildren: () => import('./enfoques/pautas12b/pautas12b.module').then( m => m.Pautas12bPageModule)
+  },
+  {
+    path: 'normativas12b',
+    loadChildren: () => import('./enfoques/normativas12b/normativas12b.module').then( m => m.Normativas12bPageModule)
+  },
+  {
+    path: 'casosfc',
+    loadChildren: () => import('./enfoques2/casosfc/casosfc.module').then( m => m.CasosfcPageModule)
+  },
+  {
+    path: 'pautas1c',
+    loadChildren: () => import('./enfoques/pautas1c/pautas1c.module').then( m => m.Pautas1cPageModule)
+  },
+  {
+    path: 'normativas1c',
+    loadChildren: () => import('./enfoques/normativas1c/normativas1c.module').then( m => m.Normativas1cPageModule)
+  },
+  {
+    path: 'pautas1cz',
+    loadChildren: () => import('./enfoques2/pautas1cz/pautas1cz.module').then( m => m.Pautas1czPageModule)
+  },
+  {
+    path: 'normativas1cz',
+    loadChildren: () => import('./enfoques2/normativas1cz/normativas1cz.module').then( m => m.Normativas1czPageModule)
+  },
+  {
+    path: 'casosdc',
+    loadChildren: () => import('./enfoques2/casosdc/casosdc.module').then( m => m.CasosdcPageModule)
+  },
+  {
+    path: 'pautas4c',
+    loadChildren: () => import('./enfoques2/pautas4c/pautas4c.module').then( m => m.Pautas4cPageModule)
+  },
+  {
+    path: 'normativas4c',
+    loadChildren: () => import('./enfoques2/normativas4c/normativas4c.module').then( m => m.Normativas4cPageModule)
+  },
+  {
+    path: 'casoshc',
+    loadChildren: () => import('./enfoques2/casoshc/casoshc.module').then( m => m.CasoshcPageModule)
+  },
+  {
+    path: 'pautas7c',
+    loadChildren: () => import('./enfoques2/pautas7c/pautas7c.module').then( m => m.Pautas7cPageModule)
+  },
+  {
+    path: 'normativas7c',
+    loadChildren: () => import('./enfoques2/normativas7c/normativas7c.module').then( m => m.Normativas7cPageModule)
+  },
+  {
+    path: 'casosec',
+    loadChildren: () => import('./enfoques2/casosec/casosec.module').then( m => m.CasosecPageModule)
+  },
+  {
+    path: 'pautas10c',
+    loadChildren: () => import('./enfoques2/pautas10c/pautas10c.module').then( m => m.Pautas10cPageModule)
+  },
+  {
+    path: 'normativas10c',
+    loadChildren: () => import('./enfoques2/normativas10c/normativas10c.module').then( m => m.Normativas10cPageModule)
+  },
+  {
+    path: 'interc',
+    loadChildren: () => import('./enfoques2/interc/interc.module').then( m => m.IntercPageModule)
+  },
+  {
+    path: 'casosgc',
+    loadChildren: () => import('./enfoques2/casosgc/casosgc.module').then( m => m.CasosgcPageModule)
+  },
+  {
+    path: 'pautas12c',
+    loadChildren: () => import('./enfoques2/pautas12c/pautas12c.module').then( m => m.Pautas12cPageModule)
+  },
+  {
+    path: 'normativas12c',
+    loadChildren: () => import('./enfoques2/normativas12c/normativas12c.module').then( m => m.Normativas12cPageModule)
+  },
+
 
 
 
