@@ -1578,6 +1578,18 @@ const routes: Routes = [
     path: 'normativaap16',
     loadChildren: () => import('./mapis/normativaap16/normativaap16.module').then( m => m.Normativaap16PageModule)
   },
+  {
+    path: 'casoscb',
+    loadChildren: () => import('./enfoques/casoscb/casoscb.module').then( m => m.CasoscbPageModule)
+  },
+  {
+    path: 'pautas14b',
+    loadChildren: () => import('./enfoques/pautas14b/pautas14b.module').then( m => m.Pautas14bPageModule)
+  },
+  {
+    path: 'normativas14b',
+    loadChildren: () => import('./enfoques/normativas14b/normativas14b.module').then( m => m.Normativas14bPageModule)
+  },
 
 
 

@@ -5,7 +5,7 @@
     color: #FFFFFF;
 }
 .toolbar-background {
-    background: #558db8;
+    background: #4c8dbc;
 }
 .toolbar-container {
     padding-top: 0px;
@@ -48,10 +48,10 @@ input.searchbar-input.sc-ion-searchbar-ios {
     border-radius: 40px;
 }
 .boton-azul {
-    margin: 25px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
     padding: 14px;
-    background-color: #558db8;
-    border-radius: 30px;
+    background-color: #4c8dbc;
+    border-radius: 40px;
     color: #ffffff;
     text-align: center;
 }
@@ -77,12 +77,13 @@ p.texto.interno {
     line-height: 21px;
 }
 .boton-blanco {
-    background-color: #ffffff;
+    background-color: none;
     border-radius: 30px;
-    padding: 16px;
+    padding: 10px;
     display: inline-flex;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 .div-a {
     width: 80%;
@@ -94,7 +95,7 @@ p.texto.interno {
 .icono2 {
     width: 10%;
     font-size: 19px;
-    color: #558db8;
+    color: #4c8dbc;
 }
 .letra-boton-interna {
     width: 90%;
@@ -105,10 +106,10 @@ p.texto.interno {
 }
 .icono1 {
     font-size: 100px;
-    color: #558db8;
+    color: #4c8dbc;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .letra-boton-interna {
     FONT-FAMILY: Montserrat, sans-serif;
@@ -117,9 +118,35 @@ p.texto.interno {
     color: #595959;
     line-height: 21px;
 }
-.titulo {
-    font-family: Montserrat, sans-serif;
+.cuadro-verde {
+    background-color: #4c8dbc;
+    padding: 16px;
+    border-radius: 30px;
 }
-img.imageni {
-    max-width: 270px;
+p.texto-interno-blanco {
+    FONT-FAMILY: Montserrat, sans-serif;
+    line-height: 21px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+}
+p.texto-interno {
+    FONT-FAMILY: Montserrat, sans-serif;
+    line-height: 21px;
+    font-size: 14px;
+    color: #595959;
+    line-height: 21px;
+    /* color: #ffffff; */
+}
+a {
+    background-color: transparent;
+    color: #4c8dbc;
+    text-decoration: none;
+}
+hr {
+    height: 1px;
+    border-width: 0px;
+    box-sizing: none;
+    width: 90%;
+    background-color: #bfbfbf;
 }
