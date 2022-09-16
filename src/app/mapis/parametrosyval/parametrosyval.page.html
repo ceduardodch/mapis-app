@@ -1,13 +1,26 @@
 <ion-header>
   <ion-toolbar>
     <div class="header-enfoques">
-      <div class="icono" routerLink="/menu4"><ion-icon name="chevron-back-outline"></ion-icon></div>
+      <div class="icono" routerLink="/menu6"><ion-icon name="chevron-back-outline"></ion-icon></div>
       <div class="buscar"><ion-searchbar></ion-searchbar></div>
       </div>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+
+  <ion-popover trigger="otrolink100" size="auto">
+    <ng-template>
+      <ion-content class="ion-padding">Ejemplos amenazas: dejar de apoyar económicamente, hacer daño a sus dependientes, atentar contra el bienestar físico y emocional de la víctima, con el posible despido del trabajo, otros.</ion-content>
+    </ng-template>
+  </ion-popover>
+
+  <ion-popover trigger="otrolink101" size="auto">
+    <ng-template>
+      <ion-content class="ion-padding">Ejemplos actos de violencia: gritar a la víctima, hacer comentarios denigrantes, llevarla la fuerza, golpearla, otros).</ion-content>
+    </ng-template>
+  </ion-popover>
+
   <div class="fondo-gris">
 
     <!-- pagina 3.5 -->
@@ -28,7 +41,7 @@
       <li>Existencia previa de solicitudes de MAPIs,
       sean estas, administrativas o judiciales y de
       acciones urgentes.</li>
-      <li>Existencia de <FONT COLOR="#35bba9">amenazas</FONT> por parte de la
+      <li>Existencia de <a id="otrolink100">amenazas</a> por parte de la
       persona agresora a la víctima o a sus
       dependientes.</li>
       <li>Existencia de amenazas por parte de la
@@ -40,7 +53,7 @@
       bienes de la víctima.</li>
       <li>Consumo abusivo de alcohol o drogas por
       parte de la persona agresora.
-      <li><a href="">Actos de violencia</a> en presencia de hijos,
+      <li> <a id="otrolink101">Actos de violencia</a> en presencia de hijos,
       hijas o familiares o en lugares públicos.</li>
       <li>Intento o amenazas de suicidio, o
       cualquier <b>otra medida intimidante </b>por parte

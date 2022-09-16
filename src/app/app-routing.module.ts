@@ -1486,6 +1486,98 @@ const routes: Routes = [
     path: 'normativas12c',
     loadChildren: () => import('./enfoques2/normativas12c/normativas12c.module').then( m => m.Normativas12cPageModule)
   },
+  {
+    path: 'casospsi3',
+    loadChildren: () => import('./mapis/casospsi3/casospsi3.module').then( m => m.Casospsi3PageModule)
+  },
+  {
+    path: 'acciones222',
+    loadChildren: () => import('./mapis/acciones222/acciones222.module').then( m => m.Acciones222PageModule)
+  },
+  {
+    path: 'acciones333',
+    loadChildren: () => import('./mapis/acciones333/acciones333.module').then( m => m.Acciones333PageModule)
+  },
+  {
+    path: 'acciones4444',
+    loadChildren: () => import('./mapis/acciones4444/acciones4444.module').then( m => m.Acciones4444PageModule)
+  },
+  {
+    path: 'consideraciones',
+    loadChildren: () => import('./mapis/consideraciones/consideraciones.module').then( m => m.ConsideracionesPageModule)
+  },
+  {
+    path: 'menu8',
+    loadChildren: () => import('./mapis/menu8/menu8.module').then( m => m.Menu8PageModule)
+  },
+  {
+    path: 'procedimineto222',
+    loadChildren: () => import('./mapis/procedimineto222/procedimineto222.module').then( m => m.Procedimineto222PageModule)
+  },
+  {
+    path: 'procedimineto333',
+    loadChildren: () => import('./mapis/procedimineto333/procedimineto333.module').then( m => m.Procedimineto333PageModule)
+  },
+  {
+    path: 'procedimineto444',
+    loadChildren: () => import('./mapis/procedimineto444/procedimineto444.module').then( m => m.Procedimineto444PageModule)
+  },
+  {
+    path: 'menu9',
+    loadChildren: () => import('./mapis/menu9/menu9.module').then( m => m.Menu9PageModule)
+  },
+  {
+    path: 'normativaap15',
+    loadChildren: () => import('./mapis/normativaap15/normativaap15.module').then( m => m.Normativaap15PageModule)
+  },
+  {
+    path: 'pautas15',
+    loadChildren: () => import('./mapis/pautas15/pautas15.module').then( m => m.Pautas15PageModule)
+  },
+  {
+    path: 'casosab',
+    loadChildren: () => import('./mapis/casosab/casosab.module').then( m => m.CasosabPageModule)
+  },
+  {
+    path: 'casosabb',
+    loadChildren: () => import('./enfoques/casosabb/casosabb.module').then( m => m.CasosabbPageModule)
+  },
+  {
+    path: 'normativa13',
+    loadChildren: () => import('./enfoques/normativa13/normativa13.module').then( m => m.Normativa13PageModule)
+  },
+  {
+    path: 'pautas13',
+    loadChildren: () => import('./enfoques/pautas13/pautas13.module').then( m => m.Pautas13PageModule)
+  },
+  {
+    path: 'pautas13b',
+    loadChildren: () => import('./enfoques/pautas13b/pautas13b.module').then( m => m.Pautas13bPageModule)
+  },
+  {
+    path: 'normativas13b',
+    loadChildren: () => import('./enfoques/normativas13b/normativas13b.module').then( m => m.Normativas13bPageModule)
+  },
+  {
+    path: 'casosbbb',
+    loadChildren: () => import('./enfoques/casosbbb/casosbbb.module').then( m => m.CasosbbbPageModule)
+  },
+  {
+    path: 'casosggg',
+    loadChildren: () => import('./enfoques/casosggg/casosggg.module').then( m => m.CasosgggPageModule)
+  },
+  {
+    path: 'casossimbolic',
+    loadChildren: () => import('./mapis/casossimbolic/casossimbolic.module').then( m => m.CasossimbolicPageModule)
+  },
+  {
+    path: 'pautas16',
+    loadChildren: () => import('./mapis/pautas16/pautas16.module').then( m => m.Pautas16PageModule)
+  },
+  {
+    path: 'normativaap16',
+    loadChildren: () => import('./mapis/normativaap16/normativaap16.module').then( m => m.Normativaap16PageModule)
+  },
 
 
 
