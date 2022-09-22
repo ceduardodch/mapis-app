@@ -1590,6 +1590,98 @@ const routes: Routes = [
     path: 'normativas14b',
     loadChildren: () => import('./enfoques/normativas14b/normativas14b.module').then( m => m.Normativas14bPageModule)
   },
+  {
+    path: 'casospsicb',
+    loadChildren: () => import('./mapis2/casospsicb/casospsicb.module').then( m => m.CasospsicbPageModule)
+  },
+  {
+    path: 'pautas103',
+    loadChildren: () => import('./mapis2/pautas103/pautas103.module').then( m => m.Pautas103PageModule)
+  },
+  {
+    path: 'normativaap103',
+    loadChildren: () => import('./mapis2/normativaap103/normativaap103.module').then( m => m.Normativaap103PageModule)
+  },
+  {
+    path: 'pautas104',
+    loadChildren: () => import('./mapis2/pautas104/pautas104.module').then( m => m.Pautas104PageModule)
+  },
+  {
+    path: 'normativaap104',
+    loadChildren: () => import('./mapis2/normativaap104/normativaap104.module').then( m => m.Normativaap104PageModule)
+  },
+  {
+    path: 'casosabb88',
+    loadChildren: () => import('./mapis2/casosabb88/casosabb88.module').then( m => m.Casosabb88PageModule)
+  },
+  {
+    path: 'casosabb33',
+    loadChildren: () => import('./enfoques2/casosabb33/casosabb33.module').then( m => m.Casosabb33PageModule)
+  },
+  {
+    path: 'pautas13b33',
+    loadChildren: () => import('./enfoques2/pautas13b33/pautas13b33.module').then( m => m.Pautas13b33PageModule)
+  },
+  {
+    path: 'normativas13b33',
+    loadChildren: () => import('./enfoques2/normativas13b33/normativas13b33.module').then( m => m.Normativas13b33PageModule)
+  },
+  {
+    path: 'pautas1b33',
+    loadChildren: () => import('./enfoques2/pautas1b33/pautas1b33.module').then( m => m.Pautas1b33PageModule)
+  },
+  {
+    path: 'normativas1b33',
+    loadChildren: () => import('./enfoques2/normativas1b33/normativas1b33.module').then( m => m.Normativas1b33PageModule)
+  },
+  {
+    path: 'casosfc33',
+    loadChildren: () => import('./enfoques2/casosfc33/casosfc33.module').then( m => m.Casosfc33PageModule)
+  },
+  {
+    path: 'casoscccc',
+    loadChildren: () => import('./enfoques2/casoscccc/casoscccc.module').then( m => m.CasosccccPageModule)
+  },
+  {
+    path: 'pautas14c',
+    loadChildren: () => import('./enfoques2/pautas14c/pautas14c.module').then( m => m.Pautas14cPageModule)
+  },
+  {
+    path: 'normativas14c',
+    loadChildren: () => import('./enfoques2/normativas14c/normativas14c.module').then( m => m.Normativas14cPageModule)
+  },
+  {
+    path: 'casosginecccc',
+    loadChildren: () => import('./enfoques2/casosginecccc/casosginecccc.module').then( m => m.CasosgineccccPageModule)
+  },
+  {
+    path: 'casosginecoddd',
+    loadChildren: () => import('./mapis2/casosginecoddd/casosginecoddd.module').then( m => m.CasosginecodddPageModule)
+  },
+  {
+    path: 'pautas105',
+    loadChildren: () => import('./mapis2/pautas105/pautas105.module').then( m => m.Pautas105PageModule)
+  },
+  {
+    path: 'normativaap105',
+    loadChildren: () => import('./mapis2/normativaap105/normativaap105.module').then( m => m.Normativaap105PageModule)
+  },
+  {
+    path: 'pautas15',
+    loadChildren: () => import('./enfoques2/pautas15/pautas15.module').then( m => m.Pautas15PageModule)
+  },
+  {
+    path: 'normativas15',
+    loadChildren: () => import('./enfoques2/normativas15/normativas15.module').then( m => m.Normativas15PageModule)
+  },
+  {
+    path: 'pautas15cc',
+    loadChildren: () => import('./enfoques2/pautas15cc/pautas15cc.module').then( m => m.Pautas15ccPageModule)
+  },
+  {
+    path: 'normativas15cc',
+    loadChildren: () => import('./enfoques2/normativas15cc/normativas15cc.module').then( m => m.Normativas15ccPageModule)
+  },
 
 
 
