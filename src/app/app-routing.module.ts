@@ -1682,6 +1682,58 @@ const routes: Routes = [
     path: 'normativas15cc',
     loadChildren: () => import('./enfoques2/normativas15cc/normativas15cc.module').then( m => m.Normativas15ccPageModule)
   },
+  {
+    path: 'violenciafisicazz',
+    loadChildren: () => import('./mapis2/violenciafisicazz/violenciafisicazz.module').then( m => m.ViolenciafisicazzPageModule)
+  },
+  {
+    path: 'casosfisizz',
+    loadChildren: () => import('./mapis2/casosfisizz/casosfisizz.module').then( m => m.CasosfisizzPageModule)
+  },
+  {
+    path: 'pautas106',
+    loadChildren: () => import('./mapis2/pautas106/pautas106.module').then( m => m.Pautas106PageModule)
+  },
+  {
+    path: 'normativaap106',
+    loadChildren: () => import('./mapis2/normativaap106/normativaap106.module').then( m => m.Normativaap106PageModule)
+  },
+  {
+    path: 'casosgineco2zz',
+    loadChildren: () => import('./mapis2/casosgineco2zz/casosgineco2zz.module').then( m => m.Casosgineco2zzPageModule)
+  },
+  {
+    path: 'pautas107',
+    loadChildren: () => import('./mapis2/pautas107/pautas107.module').then( m => m.Pautas107PageModule)
+  },
+  {
+    path: 'normativaap107',
+    loadChildren: () => import('./mapis2/normativaap107/normativaap107.module').then( m => m.Normativaap107PageModule)
+  },
+  {
+    path: 'casossim2zz',
+    loadChildren: () => import('./mapis2/casossim2zz/casossim2zz.module').then( m => m.Casossim2zzPageModule)
+  },
+  {
+    path: 'pautas108',
+    loadChildren: () => import('./mapis2/pautas108/pautas108.module').then( m => m.Pautas108PageModule)
+  },
+  {
+    path: 'normativaap108',
+    loadChildren: () => import('./mapis2/normativaap108/normativaap108.module').then( m => m.Normativaap108PageModule)
+  },
+  {
+    path: 'casosfisi4',
+    loadChildren: () => import('./mapis/casosfisi4/casosfisi4.module').then( m => m.Casosfisi4PageModule)
+  },
+  {
+    path: 'pautas17',
+    loadChildren: () => import('./mapis/pautas17/pautas17.module').then( m => m.Pautas17PageModule)
+  },
+  {
+    path: 'normativaap17',
+    loadChildren: () => import('./mapis/normativaap17/normativaap17.module').then( m => m.Normativaap17PageModule)
+  },
 
 
 
