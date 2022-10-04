@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">mapis-app</string>
-    <string name="title_activity_main">mapis-app</string>
+    <string name="app_name">Mapis y acciones urgentes</string>
+    <string name="title_activity_main">Mapis y acciones urgentes</string>
     <string name="package_name">io.ionic.mapis</string>
     <string name="custom_url_scheme">io.ionic.mapis</string>
 </resources>
