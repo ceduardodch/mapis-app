@@ -1734,6 +1734,14 @@ const routes: Routes = [
     path: 'normativaap17',
     loadChildren: () => import('./mapis/normativaap17/normativaap17.module').then( m => m.Normativaap17PageModule)
   },
+  {
+    path: 'ayuda2',
+    loadChildren: () => import('./ayuda/ayuda2/ayuda2.module').then( m => m.Ayuda2PageModule)
+  },
+  {
+    path: 'ayuda3',
+    loadChildren: () => import('./ayuda/ayuda3/ayuda3.module').then( m => m.Ayuda3PageModule)
+  },
 
 
 
