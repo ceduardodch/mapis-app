@@ -1742,6 +1742,10 @@ const routes: Routes = [
     path: 'ayuda3',
     loadChildren: () => import('./ayuda/ayuda3/ayuda3.module').then( m => m.Ayuda3PageModule)
   },
+  {
+    path: 'my-search',
+    loadChildren: () => import('./my-search/my-search.module').then( m => m.MySearchPageModule)
+  },
 
 
 
