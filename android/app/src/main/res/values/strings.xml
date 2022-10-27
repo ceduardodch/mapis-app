@@ -2,6 +2,6 @@
 <resources>
     <string name="app_name">Mapis y acciones urgentes</string>
     <string name="title_activity_main">Mapis y acciones urgentes</string>
-    <string name="package_name">io.ionic.mapis</string>
-    <string name="custom_url_scheme">io.ionic.mapis</string>
+    <string name="package_name">io.ionic.mapisyacciones</string>
+    <string name="custom_url_scheme">io.ionic.mapisyacciones</string>
 </resources>

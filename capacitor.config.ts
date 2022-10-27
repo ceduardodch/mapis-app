@@ -1,7 +1,7 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.mapis',
+  appId: 'io.ionic.mapisyacciones',
   appName: 'Mapis & Acciones Urgentes',
   webDir: 'www',
   bundledWebRuntime: false,

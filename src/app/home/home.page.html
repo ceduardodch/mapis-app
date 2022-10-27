@@ -25,28 +25,22 @@
 <div class="ion-page" id="main-content">
 
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar mode="md">
     <div id="arriba">  
       <ion-buttons slot="end">
-        <ion-menu-button>
-          <ion-icon name="grid-outline"></ion-icon>
+        <ion-menu-button mode="md">
         </ion-menu-button>
      </ion-buttons>
-    </div>    
+    </div>  
     <ion-title>
-      <div class="nombre">Mapis & Acciones Urgentes</div> 
-     <!-- Default Searchbar -->
-<ion-searchbar></ion-searchbar>
+      <div class="nombre">Mapis & Acciones Urgentes</div>   
+      <div class="buscar"><ion-searchbar animated="true" placeholder="Buscar"></ion-searchbar></div>
+   
     </ion-title>
   </ion-toolbar>
 </ion-header>
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <div id="bg-header"> 
-    <ion-toolbar>
-    </ion-toolbar>
-  </div>
-  </ion-header>
+
   <div id="container">
     <div class="subtitulos"> 
       <div class="sub">
