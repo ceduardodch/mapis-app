@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { MySearchPageRoutingModule } from './my-search-routing.module';
+import { MySearch2PageRoutingModule } from './my-search2-routing.module';
 
-import { MySearchPage } from './my-search.page';
+import { MySearch2Page } from './my-search2.page';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
 
 
@@ -15,13 +15,9 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     CommonModule,
     FormsModule,
     IonicModule,
-    MySearchPageRoutingModule,
+    MySearch2PageRoutingModule,
     Ng2SearchPipeModule
   ],
-  declarations: [MySearchPage]
+  declarations: [MySearch2Page]
 })
-export class MySearchPageModule {
-
-
-
-}
+export class MySearch2PageModule {}
