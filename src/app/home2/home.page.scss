@@ -72,6 +72,15 @@ ion-title {
   background-color: #2b2e33;
 
 }
+.ion-menu::part(backdrop) {
+  background-color: rgba(255, 0, 255, 0.5);
+}
+
+.ion-menu::part(container) {
+  border-radius: 0 20px 20px 0;
+
+  box-shadow: 4px 0px 16px rgba(255, 0, 255, 0.18);
+}
 .slider1 {
   background-color: #fff;
   border-radius: 8px;
@@ -90,9 +99,10 @@ ion-title {
   background-color: #fff;
   border-radius: 8px;
   margin: 15px 8px 15px 8px;
-  color: #rgb(31, 31, 31);
+  color:  rgb(31, 31, 31);
   vertical-align: bottom;
 }
+
 .cuadro1 {
   background-color: #f18e31;
   min-height: 100px;
@@ -135,11 +145,10 @@ width: 100%;
   font-size: 13px;
    width: 70%;
    font-family: Montserrat, sans-serif;
-   
 }
 .link {
   width: 50%;
-  color: #55b8a9;
+  color: #f18e31;
   text-align: right;
   padding-right: 16px;
 }
@@ -240,12 +249,12 @@ ion-title.md.title-default.hydrated {
   display: inline-flex;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-family: Montserrat, sans-serif;
 }
 .sub {
   color: #FFFFFF;
   padding-left: 16px;
   width: 50%;
-  font-family: Montserrat, sans-serif;
 }
 a {
   background-color: transparent;
@@ -258,6 +267,7 @@ div#arriba {
   font-size: 10px;
   padding: 10px 10px 0px 10px;
 }
+
 .ios header-md::after {
   left: 0;
   bottom: -5px;
