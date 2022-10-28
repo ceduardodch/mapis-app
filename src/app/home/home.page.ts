@@ -16,15 +16,8 @@ export class HomePage{
   config: SwiperOptions={
     slidesPerView: 2,
   };
-  constructor(private menu: MenuController,private modalCtrl: ModalController) {}
-  openFirst() {
-    this.menu.enable(true, 'first');
-    this.menu.open('first');
-  }
+  constructor(private modalCtrl: ModalController) {}
 
-  openEnd() {
-    this.menu.open('end');
-  }
   async openModal(){
     const modal = await this.modalCtrl.create({
     component: MySearchPage,
@@ -36,5 +29,6 @@ export class HomePage{
     await modal.present();
   
   }
-
+  ngOnInit() {
+  }
 }
