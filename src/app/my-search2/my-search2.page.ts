@@ -3,11 +3,11 @@ import { HttpClient } from '@angular/common/http';
 import {map} from 'rxjs/operators';
 
 @Component({
-  selector: 'app-my-search',
-  templateUrl: './my-search.page.html',
-  styleUrls: ['./my-search.page.scss'],
+  selector: 'app-my-search2',
+  templateUrl: './my-search2.page.html',
+  styleUrls: ['./my-search2.page.scss'],
 })
-export class MySearchPage implements OnInit {
+export class MySearch2Page implements OnInit {
   data: any;
   junk: any;
   pages :any = [];
@@ -36,5 +36,4 @@ export class MySearchPage implements OnInit {
       })
     )
   }
-
 }

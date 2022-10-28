@@ -1746,6 +1746,10 @@ const routes: Routes = [
     path: 'my-search',
     loadChildren: () => import('./my-search/my-search.module').then( m => m.MySearchPageModule)
   },
+  {
+    path: 'my-search2',
+    loadChildren: () => import('./my-search2/my-search2.module').then( m => m.MySearch2PageModule)
+  },
 
 
 
