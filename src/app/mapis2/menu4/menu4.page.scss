@@ -99,3 +99,9 @@ ion-item.item.ios.item-fill-none.ion-activatable.ion-focusable.hydrated.item-lab
     font-size: 18;
     font-weight: 500;
 }
+@media only screen and (min-width: 820px) {
+    .boton-icono {
+        font-size: 19px;
+        width: 30px;
+    }
+  }
