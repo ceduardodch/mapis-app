@@ -344,13 +344,23 @@ ion-toolbar.sc-ion-searchbar-md-h, ion-toolbar .sc-ion-searchbar-md-h {
     min-height: 896px;
   }
 }
-@media only screen and (min-width: 920px) {
+@media only screen and (min-width: 912px) {
   #container{
     background-color: #2b2e33;
     text-align: left;
     left: 0;
     right: 0;
     padding-top: 80px;
+    min-height: 896px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  #container{
+    background-color: #2b2e33;
+    text-align: left;
+    left: 0;
+    right: 0;
+    padding-top: 140px;
     min-height: 896px;
   }
 }
