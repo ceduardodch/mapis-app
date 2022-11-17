@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import {map} from 'rxjs/operators';
-
+import { OverlayEventDetail } from '@ionic/core/components';
+import { MenuController, ModalController } from '@ionic/angular';
 @Component({
   selector: 'app-my-search',
   templateUrl: './my-search.page.html',
@@ -13,7 +14,7 @@ export class MySearchPage implements OnInit {
   pages :any = [];
   filterTerm: string;
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient,public modalCtrl: ModalController) { }
   
 
   ngOnInit() {
@@ -22,9 +23,10 @@ export class MySearchPage implements OnInit {
       this.pages = res;
             }      );
   }
-  dismiss(){
-    this.dismiss();
-  }
+
+  closeModal() {
+    this.modalCtrl.dismiss();
+}
 
   getUrls(){
     return this.http

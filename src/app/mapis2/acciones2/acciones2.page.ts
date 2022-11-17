@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { LoadingController } from '@ionic/angular';
+import { LoadingController, ModalController } from '@ionic/angular';
+import { MySearchPage } from 'src/app/my-search/my-search.page';
 
 
 @Component({
@@ -10,19 +11,19 @@ import { LoadingController } from '@ionic/angular';
 export class Acciones2Page implements OnInit {
   loading: HTMLIonLoadingElement;
 
-  constructor(private loadingCtrl: LoadingController) {
-   }
-   ngOnInit() {
-       this.showLoading();
-   }
-   async showLoading() {
-      this.loading = await this.loadingCtrl.create({
-      message: 'Cargando...',
-      duration: 3000,
-    });
+  constructor(private modalCtrl: ModalController) {}
 
+  async openModal(){
+    const modal = await this.modalCtrl.create({
+    component: MySearchPage,
+    cssClass: 'small-modal',
+    componentProps: { value: 123 }
+    
+    });
+  
+    await modal.present();
+  
   }
-dismissOnPageChange(){
-  this.loading.present();
-}
+  ngOnInit() {
+  }
 }

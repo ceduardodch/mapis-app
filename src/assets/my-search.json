@@ -1,10 +1,10 @@
 {"data":[
 {"name":"Página de Inicio",
 "description":"Mapis y Acciones Urgentes pagina inicio",
-"url":"/acciones"},
+"url":"/homep"},
 {"name":"¿Qué son MAPIs?",
 "description":"Son medidas administrativas de carácter inmediato y provisional...",
-"url":"/home"},
+"url":"/acciones"},
 {"name":"¿Cuándo se puede solicitar MAPIs?",
 "description":"Se solicitan cada vez que una mujer o niña es víctima de violencia...",
 "url":"/acciones222"},

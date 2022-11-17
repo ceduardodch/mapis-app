@@ -1,5 +1,14 @@
+
 <ion-header>
   <ion-toolbar>
+    
+
+          <ion-buttons slot="start">
+              <ion-button color="dark" (click)="closeModal()">
+                  <ion-icon name="arrow-back"></ion-icon>
+              </ion-button>
+          </ion-buttons>
+
     <ion-searchbar animated="true" placeholder="Buscar" [(ngModel)]="filterTerm"></ion-searchbar>
   </ion-toolbar>
 </ion-header>
